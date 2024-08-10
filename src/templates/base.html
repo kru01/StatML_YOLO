@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{% block title %}YOLO{% endblock title %}</title>
+
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+        />
+
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='css/styles.css') }}"
+        />
+        {% block stylesheet %}{% endblock stylesheet %} {% block script %}{%
+        endblock script %}
+    </head>
+    <body>
+        <main>{% block main %}{% endblock main %}</main>
+    </body>
+</html>

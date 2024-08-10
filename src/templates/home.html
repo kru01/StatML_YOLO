@@ -1,0 +1,81 @@
+{% extends "base.html" %} {% block stylesheet %}
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/home.css') }}"
+/>
+{% endblock stylesheet %} {% block script %}
+<script
+    src="{{ url_for('static', filename='scripts/home.js') }}"
+    defer
+></script>
+{% endblock script %} {% block main %}
+<div class="containers">
+    <header>
+        <h1>Ultralytics' pre-trained YOLOv10-M</h1>
+    </header>
+    <div class="mainHolders">
+        <form method="post">
+            <label class="picUploader"
+                ><input id="imgIn1" type="file" accept="image/*" />Upload a
+                picture</label
+            >
+            <button id="modelBn1" type="button">Submit</button>
+        </form>
+        <div class="picHolders">
+            <div class="srcHolders">
+                <p>Source</p>
+                <img
+                    id="imgSrc1"
+                    src="{{ url_for('static', filename=imgFile) }}"
+                    alt="Source picture for pre-trained YOLOv10-M's prediction"
+                />
+            </div>
+            <div>
+                <p>Result</p>
+                <img
+                    id="imgRes1"
+                    src="{{ url_for('static', filename=imgFile) }}"
+                    alt="Result of pre-trained YOLOv10-M's prediction on source picture"
+                />
+            </div>
+        </div>
+    </div>
+</div>
+<div id="homeSeparator">
+    <nav id="navbar"></nav>
+    <div id="scroller">Scroll down</div>
+    {% include("_footer.html") %}
+</div>
+<div id="trainCont" class="containers">
+    <div class="mainHolders">
+        <div class="picHolders">
+            <div class="srcHolders">
+                <img
+                    id="imgSrc2"
+                    src="{{ url_for('static', filename=imgFile) }}"
+                    alt="Source picture for pre-trained YOLOv10-M's prediction"
+                />
+                <p>Source</p>
+            </div>
+            <div>
+                <img
+                    id="imgRes2"
+                    src="{{ url_for('static', filename=imgFile) }}"
+                    alt="Result of pre-trained YOLOv10-M's prediction on source picture"
+                />
+                <p>Result</p>
+            </div>
+        </div>
+        <form method="post">
+            <label class="picUploader"
+                ><input id="imgIn2" type="file" accept="image/*" />Upload a
+                picture</label
+            >
+            <button id="modelBn2" type="button">Submit</button>
+        </form>
+    </div>
+    <header>
+        <h1>New model</h1>
+    </header>
+</div>
+{% endblock main %}
