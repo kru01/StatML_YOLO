@@ -118,6 +118,13 @@ main {
     justify-items: end;
 }
 
+#scroller,
+#homeSeparator footer a {
+    position: -webkit-sticky;
+    position: sticky;
+    top: calc(var(--homeSepHeight) / 2);
+}
+
 @keyframes pulsate {
     0% {
         opacity: 0.5;
@@ -133,6 +140,7 @@ main {
 #scroller {
     display: flex;
     flex-direction: column;
+    align-items: center;
     cursor: pointer;
     overflow: hidden;
     opacity: 0.5;
@@ -142,7 +150,7 @@ main {
 #scroller::before {
     content: "";
     position: relative;
-    left: 30px;
+    /* left: 30px; */
     bottom: 15px;
     height: 30px;
     width: 30px;
@@ -150,15 +158,42 @@ main {
     transform: rotate(45deg);
 }
 
+#scroller.removeBefore {
+    &::before {
+        content: none;
+    }
+}
+
+#scroller::after {
+    content: "";
+    position: relative;
+    /* left: 30px; */
+    bottom: -15px;
+    height: 30px;
+    width: 30px;
+    border: 2px solid #fff;
+    transform: rotate(45deg);
+}
+
+#scroller.removeAfter {
+    &::after {
+        content: none;
+    }
+}
+
 #scroller:hover {
     color: var(--generalTxtColor);
 }
 
-#scroller:hover::before {
+#scroller:hover::before,
+#scroller:hover::after {
     border-color: var(--generalTxtColor);
 }
 
 footer a {
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: calc(var(--homeSepHeight) / 2); */
     margin-right: 20px;
 }
 

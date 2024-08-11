@@ -31,6 +31,9 @@ def make_filepath(filename):
 
 @router.route("/<int:model_id>", methods=["POST"])
 def uploadImg(model_id):
+    if model_id != 1 and model_id != 2:
+        return jsonify({"message": "Invalid model"}), 500
+
     if "file" not in request.files:
         return jsonify({"message": "No file part"}), 500
 
@@ -51,24 +54,21 @@ def uploadImg(model_id):
 
 @router.route("/<int:model_id>", methods=["UPDATE"])
 def getInference(model_id):
-    if "file" not in request.files:
-        return jsonify({"message": "No file part"}), 500
-
-    img = request.files["file"]
-
-    if img.filename == "":
-        return jsonify({"message": "No selected file"}), 500
-
-    if not img or not is_allowed(img.filename):
-        return jsonify({"message": "File not supported"}), 500
-
     if model_id == 1:
         model = "yolov10m.pt"
+    elif model_id == 2:
+        return jsonify({"message": "Coming soon"}), 500
+    else:
+        return jsonify({"message": "Invalid model"}), 500
 
     modelPath = os.path.join(current_app.static_folder, "models", model)
     model = YOLO(modelPath)
 
-    ext = img.filename.rsplit(".", 1)[1]
+    data = request.get_json(silent=True)
+    if data is None:
+        return jsonify({"message": "No file part"}), 500
+
+    ext = data["filename"].rsplit(".", 1)[1]
     inFile = f"in{model_id}.{ext}"
     outFile = f"out{model_id}.{ext}"
 
