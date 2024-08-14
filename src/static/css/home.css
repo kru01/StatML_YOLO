@@ -150,7 +150,6 @@ main {
 #scroller::before {
     content: "";
     position: relative;
-    /* left: 30px; */
     bottom: 15px;
     height: 30px;
     width: 30px;
@@ -167,7 +166,6 @@ main {
 #scroller::after {
     content: "";
     position: relative;
-    /* left: 30px; */
     bottom: -15px;
     height: 30px;
     width: 30px;
@@ -191,9 +189,6 @@ main {
 }
 
 footer a {
-    /* position: -webkit-sticky;
-    position: sticky;
-    top: calc(var(--homeSepHeight) / 2); */
     margin-right: 20px;
 }
 
@@ -222,4 +217,25 @@ footer a img:hover {
 #trainCont header {
     grid-area: header;
     align-self: end;
+}
+
+@media (max-width: 750px) {
+    .mainHolders form {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .mainHolders form .picUploader {
+        width: 100%;
+    }
+
+    footer a {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 550px) {
+    footer a img {
+        width: 9vw;
+    }
 }

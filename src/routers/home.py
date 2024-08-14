@@ -23,10 +23,18 @@ def is_allowed(filename):
     return "." in filename and filename.rsplit(".", 1)[1].lower() in ALLOWED_EXTENSIONS
 
 
-def make_filepath(filename):
-    return os.path.join(
-        current_app.static_folder, current_app.config["HOME_STORAGE"], filename
-    )
+def make_path(filename, type=0):
+    """Make path from static_folder to file.
+    :param filename: Name of the file.
+    :param type: 0 - HOME_STORAGE, 1 - models.
+    :return: Path to the file.
+    """
+    if type == 0:
+        subfolder = current_app.config["HOME_STORAGE"]
+    else:
+        subfolder = "models"
+
+    return os.path.join(current_app.static_folder, subfolder, filename)
 
 
 @router.route("/<int:model_id>", methods=["POST"])
@@ -46,7 +54,7 @@ def uploadImg(model_id):
         return jsonify({"message": "File not supported"}), 500
 
     filename = f"in{model_id}.{img.filename.rsplit('.', 1)[1]}"
-    filepath = make_filepath(filename)
+    filepath = make_path(filename)
 
     img.save(filepath)
     return jsonify({"filename": filename}), 200
@@ -54,15 +62,21 @@ def uploadImg(model_id):
 
 @router.route("/<int:model_id>", methods=["UPDATE"])
 def getInference(model_id):
-    if model_id == 1:
-        model = "yolov10m.pt"
-    elif model_id == 2:
-        return jsonify({"message": "Coming soon"}), 500
-    else:
+    if model_id != 1 and model_id != 2:
         return jsonify({"message": "Invalid model"}), 500
 
-    modelPath = os.path.join(current_app.static_folder, "models", model)
-    model = YOLO(modelPath)
+    try:
+        if model_id == 1:
+            model = getInference.md_v10m
+        elif model_id == 2:
+            return jsonify({"message": "Coming soon"}), 500
+    except AttributeError:
+        getInference.md_v10m = YOLO(make_path("yolov10m.pt", 1))
+
+        if model_id == 1:
+            model = getInference.md_v10m
+        elif model_id == 2:
+            return jsonify({"message": "Coming soon"}), 500
 
     data = request.get_json(silent=True)
     if data is None:
@@ -72,8 +86,8 @@ def getInference(model_id):
     inFile = f"in{model_id}.{ext}"
     outFile = f"out{model_id}.{ext}"
 
-    inPath = make_filepath(inFile)
-    outPath = make_filepath(outFile)
+    inPath = make_path(inFile)
+    outPath = make_path(outFile)
 
     results = model(inPath)
     results[0].save(outPath)

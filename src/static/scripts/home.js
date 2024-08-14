@@ -18,6 +18,8 @@ const handleModel = (() => {
                 return;
             }
 
+            imgIn.nextElementSibling.textContent = imgIn.files[0].name;
+
             const imgSrc = document.querySelector(`#imgSrc${modelId}`);
             const data = await res.json();
 
