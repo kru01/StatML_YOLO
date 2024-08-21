@@ -1,0 +1,25 @@
+names:
+- Cattle
+- Turtle
+- Snake
+- Butterfly
+- Lion
+- Hippopotamus
+- Chicken
+- Pig
+- Mouse
+- Kangaroo
+- Frog
+- Sheep
+- Snail
+- Fish
+- Duck
+- Rabbit
+- Crab
+- Bull
+- Camel
+- Crocodile
+nc: 20
+path: /kaggle/input/20-animal
+train: train/images
+val: test/images

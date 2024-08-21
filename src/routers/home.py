@@ -71,7 +71,7 @@ def getInference(model_id):
         elif model_id == 2:
             return jsonify({"message": "Coming soon"}), 500
     except AttributeError:
-        getInference.md_v10m = YOLO(make_path("yolov10m.pt", 1))
+        getInference.md_v10m = YOLO(make_path("last.pt", 1))
 
         if model_id == 1:
             model = getInference.md_v10m
