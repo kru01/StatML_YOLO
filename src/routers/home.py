@@ -39,7 +39,7 @@ def make_path(filename, type=0):
 
 @router.route("/<int:model_id>", methods=["POST"])
 def uploadImg(model_id):
-    if model_id != 1 and model_id != 2:
+    if model_id not in {1, 2}:
         return jsonify({"message": "Invalid model"}), 500
 
     if "file" not in request.files:
@@ -62,25 +62,26 @@ def uploadImg(model_id):
 
 @router.route("/<int:model_id>", methods=["UPDATE"])
 def getInference(model_id):
-    if model_id != 1 and model_id != 2:
+    if model_id not in {1, 2}:
         return jsonify({"message": "Invalid model"}), 500
-
-    try:
-        if model_id == 1:
-            model = getInference.md_v10m
-        elif model_id == 2:
-            return jsonify({"message": "Coming soon"}), 500
-    except AttributeError:
-        getInference.md_v10m = YOLO(make_path("last.pt", 1))
-
-        if model_id == 1:
-            model = getInference.md_v10m
-        elif model_id == 2:
-            return jsonify({"message": "Coming soon"}), 500
 
     data = request.get_json(silent=True)
     if data is None:
         return jsonify({"message": "No file part"}), 500
+
+    try:
+        if model_id == 1:
+            model = getInference.md_v10m
+        else:
+            model = getInference.md_wildlife
+    except AttributeError:
+        getInference.md_v10m = YOLO(make_path("yolov10m.pt", 1))
+        getInference.md_wildlife = YOLO(make_path("last.pt", 1))
+
+        if model_id == 1:
+            model = getInference.md_v10m
+        else:
+            model = getInference.md_wildlife
 
     ext = data["filename"].rsplit(".", 1)[1]
     inFile = f"in{model_id}.{ext}"

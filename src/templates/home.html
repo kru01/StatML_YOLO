@@ -11,7 +11,11 @@
 {% endblock script %} {% block main %}
 <div class="containers">
     <header>
-        <h1>Ultralytics' pre-trained YOLOv10-M</h1>
+        <h1>
+            <a href="https://docs.ultralytics.com/models/yolov10/"
+                >Ultralytics' pre-trained YOLOv10-M</a
+            >
+        </h1>
     </header>
     <div class="mainHolders">
         <form method="post">
@@ -76,8 +80,17 @@
             <button id="modelBn2" type="button">Submit</button>
         </form>
     </div>
-    <header>
-        <h1>New model</h1>
+    <header class="tooltipOff">
+        <h1>
+            Wildlife Model 🛈
+            <p class="tooltip">
+                20 classes in 150 epochs.<br />
+                Bull, Butterfly, Camel, Cattle, Chicken, Crab, Crocodile, Duck,
+                Fish, Frog, Hippopotamus, Kangaroo, Lion, Mouse, Pig, Rabbit,
+                Sheep, Snail, Snake, Turtle.<br />
+                Datasets:
+            </p>
+        </h1>
     </header>
 </div>
 {% endblock main %}

@@ -95,6 +95,8 @@ const handleModel = (() => {
 })();
 
 const handleInterface = (() => {
+    /* Scroller
+     */
     const viewHeight = Math.max(
         document.documentElement.clientHeight || 0,
         window.innerHeight || 0
@@ -168,6 +170,13 @@ const handleInterface = (() => {
         }
 
         setScrollerState("after");
+    });
+
+    /* Tooltip
+     */
+    trainHeader = document.querySelector(`#trainCont header`);
+    trainHeader.getElementsByTagName(`h1`)[0].addEventListener("click", () => {
+        trainHeader.classList.toggle("tooltipOff");
     });
 })();
 

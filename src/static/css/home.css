@@ -15,6 +15,18 @@ main {
 .containers header h1 {
     padding: 25px;
     color: var(--generalTxtColor);
+    display: inline-block;
+}
+
+.containers header h1:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: hsla(350, 63%, 72%, 0.966);
+}
+
+.containers header h1 a {
+    color: inherit;
+    text-decoration: inherit;
 }
 
 .mainHolders {
@@ -46,6 +58,15 @@ main {
     border: 2px solid var(--generalTxtColor);
     border-radius: 5px;
     cursor: pointer;
+
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.mainHolders form .picUploader::-webkit-scrollbar {
+    width: 0;
+    height: 0;
 }
 
 .mainHolders form .picUploader:hover {
@@ -217,6 +238,42 @@ footer a img:hover {
 #trainCont header {
     grid-area: header;
     align-self: end;
+    position: relative;
+}
+
+#trainCont header .tooltip {
+    width: 60%;
+    background: rgb(51 50 51 / 50%);
+    color: var(--generalTxtColor);
+    border: 2px solid var(--generalTxtColor);
+    text-align: justify;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: var(--generalBorderRad);
+
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 300px;
+}
+
+#trainCont header.tooltipOff .tooltip {
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.tooltip br {
+    display: block;
+    content: "";
+    margin: 7px 0;
+}
+
+#trainCont header.tooltipOff h1:hover .tooltip {
+    visibility: visible;
+    transform: translateY(0px);
+    opacity: 0.9;
 }
 
 @media (max-width: 750px) {
@@ -231,6 +288,10 @@ footer a img:hover {
 
     footer a {
         margin-right: 0;
+    }
+
+    #trainCont header .tooltip {
+        font-size: 10px;
     }
 }
 
