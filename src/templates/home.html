@@ -5,6 +5,10 @@
 />
 {% endblock stylesheet %} {% block script %}
 <script
+    src="{{ url_for('static', filename='scripts/misc.js') }}"
+    defer
+></script>
+<script
     src="{{ url_for('static', filename='scripts/home.js') }}"
     defer
 ></script>
@@ -46,11 +50,11 @@
     </div>
 </div>
 <div id="homeSeparator">
-    <nav></nav>
+    {% include("comps/_nav.html") %}
     <div>
         <div id="scroller">Scroll down</div>
     </div>
-    {% include("_footer.html") %}
+    {% include("comps/_footer.html") %}
 </div>
 <div id="trainCont" class="containers">
     <div class="mainHolders">
@@ -59,7 +63,7 @@
                 <img
                     id="imgSrc2"
                     src="{{ url_for('static', filename=imgFile) }}"
-                    alt="Source picture for pre-trained YOLOv10-M's prediction"
+                    alt="Source picture for Wildlife model's prediction"
                 />
                 <p>Source</p>
             </div>
@@ -67,7 +71,7 @@
                 <img
                     id="imgRes2"
                     src="{{ url_for('static', filename=imgFile) }}"
-                    alt="Result of pre-trained YOLOv10-M's prediction on source picture"
+                    alt="Result of Wildlife model's prediction on source picture"
                 />
                 <p>Result</p>
             </div>
@@ -80,17 +84,6 @@
             <button id="modelBn2" type="button">Submit</button>
         </form>
     </div>
-    <header class="tooltipOff">
-        <h1>
-            Wildlife Model 🛈
-            <p class="tooltip">
-                20 classes in 150 epochs.<br />
-                Bull, Butterfly, Camel, Cattle, Chicken, Crab, Crocodile, Duck,
-                Fish, Frog, Hippopotamus, Kangaroo, Lion, Mouse, Pig, Rabbit,
-                Sheep, Snail, Snake, Turtle.<br />
-                Datasets:
-            </p>
-        </h1>
-    </header>
+    {% include("comps/_header.html") %}
 </div>
 {% endblock main %}

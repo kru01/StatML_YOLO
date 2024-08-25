@@ -1,15 +1,14 @@
 from flask import Flask
 
-from routers import home
-from views import views
+from views import home, wiki
 
 app = Flask(__name__)
 
-app.config["LC_STORAGE"] = "lcStorage"
-app.config["HOME_STORAGE"] = f"{app.config['LC_STORAGE']}/home"
+app.config["STORE"] = "store"
+app.config["IMG_STORE"] = f"{app.config['STORE']}/images"
 
-app.register_blueprint(views.bp)
 app.register_blueprint(home.router)
+app.register_blueprint(wiki.router)
 
 if __name__ == "__main__":
     app.run(debug=True)

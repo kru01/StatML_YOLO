@@ -1,0 +1,89 @@
+{% extends "base.html" %} {% block stylesheet %}
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/wiki.css') }}"
+/>
+{% endblock stylesheet %} {% block script %}
+<script
+    src="{{ url_for('static', filename='scripts/misc.js') }}"
+    defer
+></script>
+<script
+    src="{{ url_for('static', filename='scripts/wiki.js') }}"
+    defer
+></script>
+{% endblock script %} {% block main %} {% include("comps/_header.html") %}
+<div class="mainHolders">
+    <form method="post">
+        <label class="picUploader">
+            <input id="imgIn2" type="file" accept="image/*" />
+            <p>Upload a picture</p>
+        </label>
+        <button id="modelBn2" type="button">Submit</button>
+    </form>
+    <div id="main">
+        <div id="picHolder">
+            <img
+                id="imgRes2"
+                src="{{ url_for('static', filename=imgFile) }}"
+                alt="Result of Wildlife model's prediction on source picture"
+            />
+            <p>Result</p>
+        </div>
+        <div id="infoHolder">
+            <div id="info">
+                <div>
+                    <h2>Animal</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vestibulum ullamcorper eros eu velit faucibus
+                        condimentum. Fusce quis lacus eget sapien condimentum
+                        facilisis sed ut sapien.<br />Cras imperdiet ex a
+                        laoreet consequat. Aenean molestie ante magna, sit amet
+                        maximus urna facilisis id. Maecenas quam nibh, euismod
+                        vitae cursus id, aliquam sit amet dolor.
+                    </p>
+                    <ul>
+                        <li>
+                            <a
+                                href="https://github.com/phongan1x5"
+                                target="_blank"
+                                >🛈 Links</a
+                            >
+                        </li>
+                        <li>
+                            <a href="https://github.com/kru01" target="_blank"
+                                >🛈 for</a
+                            >
+                        </li>
+                        <li>
+                            <a href="https://github.com/TGHuybu" target="_blank"
+                                >🛈 further reading</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="infoNav">
+                <button type="button">&lt;</button>
+                <div>
+                    <input
+                        type="text"
+                        placeholder="1"
+                        value="1"
+                        step="1"
+                        pattern="[0-9]*"
+                        inputmode="numeric"
+                        title="Current page of animals"
+                    />
+                    <span> of 1</span>
+                </div>
+                <button type="button">&gt;</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="navHolder">
+    {% include("comps/_nav.html") %} {% include("comps/_footer.html") %}
+</div>
+{% endblock main %}

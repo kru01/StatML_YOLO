@@ -12,16 +12,15 @@ const handleModel = (() => {
                 body: formData,
             });
 
+            const data = await res.json();
+
             if (res.status !== 200) {
-                const data = await res.json();
                 alert(data.message);
                 return;
             }
 
             imgIn.nextElementSibling.textContent = imgIn.files[0].name;
-
             const imgSrc = document.querySelector(`#imgSrc${modelId}`);
-            const data = await res.json();
 
             if (!imgSrc.src.includes(data.filename)) {
                 src = imgSrc.src.lastIndexOf("/");
@@ -35,19 +34,6 @@ const handleModel = (() => {
         });
     });
 
-    const disableForm = (imgIn, modelBn) => {
-        imgIn.disabled = true;
-        imgIn.classList.add("disabled");
-        modelBn.disabled = true;
-        modelBn.classList.add("disabled");
-    };
-    const enableForm = (imgIn, modelBn) => {
-        imgIn.disabled = false;
-        imgIn.classList.remove("disabled");
-        modelBn.disabled = false;
-        modelBn.classList.remove("disabled");
-    };
-
     const modelBns = document.querySelectorAll('button[id*="modelBn"]');
     modelBns.forEach((modelBn) => {
         modelBn.addEventListener("click", async () => {
@@ -59,7 +45,7 @@ const handleModel = (() => {
                 return;
             }
 
-            disableForm(imgIn, modelBn);
+            interfaceHelpers.toggleForm(imgIn, modelBn, false);
 
             const res = await fetch(`/${modelId}`, {
                 method: "UPDATE",
@@ -67,34 +53,37 @@ const handleModel = (() => {
                 body: JSON.stringify({ filename: imgIn.files[0].name }),
             });
 
+            const data = await res.json();
+
             if (res.status !== 200) {
-                const data = await res.json();
                 alert(data.message);
-                enableForm(imgIn, modelBn);
+                interfaceHelpers.toggleForm(imgIn, modelBn, true);
                 return;
             }
 
             const imgRes = document.querySelector(`#imgRes${modelId}`);
-            const data = await res.json();
 
             if (!imgRes.src.includes(data.filename)) {
                 src = imgRes.src.lastIndexOf("/");
                 src = imgRes.src.substr(0, src + 1);
                 imgRes.src = src + data.filename;
 
-                enableForm(imgIn, modelBn);
+                interfaceHelpers.toggleForm(imgIn, modelBn, true);
                 return;
             }
 
             src = imgRes.src.split("?")[0];
             imgRes.src = src + `?${+new Date().getTime()}`;
 
-            enableForm(imgIn, modelBn);
+            interfaceHelpers.toggleForm(imgIn, modelBn, true);
         });
     });
 })();
 
 const handleInterface = (() => {
+    interfaceHelpers.setActiveNav("navHome");
+    interfaceHelpers.addTooltipToggle(`#trainCont header`);
+
     /* Scroller
      */
     const viewHeight = Math.max(
@@ -171,48 +160,4 @@ const handleInterface = (() => {
 
         setScrollerState("after");
     });
-
-    /* Tooltip
-     */
-    trainHeader = document.querySelector(`#trainCont header`);
-    trainHeader.getElementsByTagName(`h1`)[0].addEventListener("click", () => {
-        trainHeader.classList.toggle("tooltipOff");
-    });
-})();
-
-const miscHelpers = (() => {
-    // https://javascript.info/js-animation
-    function animate({ timing, draw, duration }) {
-        let start = performance.now();
-
-        requestAnimationFrame(function animate(time) {
-            // timeFraction goes from 0 to 1
-            let timeFraction = (time - start) / duration;
-            if (timeFraction > 1) timeFraction = 1;
-
-            // calculate the current animation state
-            let progress = timing(timeFraction);
-
-            draw(progress); // draw it
-
-            if (timeFraction < 1) {
-                requestAnimationFrame(animate);
-            }
-        });
-    }
-
-    function makeEaseInOut(timing) {
-        return function (timeFraction) {
-            if (timeFraction < 0.5) return timing(2 * timeFraction) / 2;
-            else return (2 - timing(2 * (1 - timeFraction))) / 2;
-        };
-    }
-
-    function linear(timeFraction) {
-        return timeFraction;
-    }
-
-    const linearEaseInOut = makeEaseInOut(linear);
-
-    return { animate, linearEaseInOut };
 })();

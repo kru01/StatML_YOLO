@@ -12,97 +12,6 @@ main {
     grid-template-rows: 1fr auto 1fr;
 }
 
-.containers header h1 {
-    padding: 25px;
-    color: var(--generalTxtColor);
-    display: inline-block;
-}
-
-.containers header h1:hover {
-    cursor: pointer;
-    text-decoration: underline;
-    color: hsla(350, 63%, 72%, 0.966);
-}
-
-.containers header h1 a {
-    color: inherit;
-    text-decoration: inherit;
-}
-
-.mainHolders {
-    width: 100%;
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
-}
-
-.mainHolders form {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.mainHolders form input[type="file"] {
-    display: none;
-}
-
-.mainHolders form .picUploader {
-    background: transparent;
-    color: var(--generalTxtColor);
-    font-size: 16px;
-    width: 50%;
-    padding: 10px 20px;
-    border: 2px solid var(--generalTxtColor);
-    border-radius: 5px;
-    cursor: pointer;
-
-    overflow-x: scroll;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-}
-
-.mainHolders form .picUploader::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-}
-
-.mainHolders form .picUploader:hover {
-    cursor: pointer;
-    box-shadow: 0px 0px 10px 0px #f2aa4ca6;
-    background: rgb(165 166 165 / 15%);
-}
-
-.mainHolders form button {
-    width: 10em;
-    padding: 15px 0;
-    border: 0px solid transparent;
-    border-radius: 0.325em;
-    box-shadow: 4px 8px 4px 0px rgb(0 0 0 / 50%);
-    color: white;
-    background: rgb(51, 50, 51);
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.1s ease-in;
-}
-
-.mainHolders form button:hover {
-    color: var(--generalTxtColor);
-    background: rgb(165 166 165 / 15%);
-    transform: translateY(-0.2rem);
-}
-
-.mainHolders form button:active {
-    transform: translateY(0rem);
-}
-
-.mainHolders form button.disabled {
-    background: #ff9494;
-    color: #212121;
-}
-
 .mainHolders .picHolders {
     width: 100%;
     display: flex;
@@ -136,14 +45,19 @@ main {
     height: var(--homeSepHeight);
     display: grid;
     grid-template-columns: 1fr auto 1fr;
-    justify-items: end;
+    justify-items: center;
 }
 
+#homeSeparator nav ul,
 #scroller,
 #homeSeparator footer a {
     position: -webkit-sticky;
     position: sticky;
     top: calc(var(--homeSepHeight) / 2);
+}
+
+#homeSeparator nav {
+    justify-self: start;
 }
 
 @keyframes pulsate {
@@ -209,19 +123,8 @@ main {
     border-color: var(--generalTxtColor);
 }
 
-footer a {
-    margin-right: 20px;
-}
-
-footer a img {
-    border-radius: 50%;
-    width: 50px;
-}
-
-footer a img:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: 0.4s;
+footer {
+    justify-self: end;
 }
 
 #trainCont {
@@ -242,38 +145,8 @@ footer a img:hover {
 }
 
 #trainCont header .tooltip {
-    width: 60%;
-    background: rgb(51 50 51 / 50%);
-    color: var(--generalTxtColor);
-    border: 2px solid var(--generalTxtColor);
-    text-align: justify;
-    font-size: 14px;
-    padding: 10px;
-    border-radius: var(--generalBorderRad);
-
-    position: absolute;
-    z-index: 1;
     bottom: 0;
     left: 300px;
-}
-
-#trainCont header.tooltipOff .tooltip {
-    visibility: hidden;
-    transform: translateY(-10px);
-    transition: 0.5s;
-    opacity: 0;
-}
-
-.tooltip br {
-    display: block;
-    content: "";
-    margin: 7px 0;
-}
-
-#trainCont header.tooltipOff h1:hover .tooltip {
-    visibility: visible;
-    transform: translateY(0px);
-    opacity: 0.9;
 }
 
 @media (max-width: 750px) {
@@ -286,17 +159,32 @@ footer a img:hover {
         width: 100%;
     }
 
+    nav ul a {
+        font-size: 16px;
+    }
+
     footer a {
-        margin-right: 0;
+        margin: 0;
     }
 
     #trainCont header .tooltip {
+        width: 40%;
         font-size: 10px;
     }
 }
 
 @media (max-width: 550px) {
+    body {
+        --navMargin: 0 5px;
+    }
+
     footer a img {
         width: 9vw;
+    }
+
+    #trainCont header .tooltip {
+        bottom: 80px;
+        left: 25px;
+        background: rgb(51 50 51);
     }
 }
