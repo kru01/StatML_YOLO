@@ -17,6 +17,8 @@ const handleModel = (() => {
         }
 
         imgIn.nextElementSibling.textContent = imgIn.files[0].name;
+        document.querySelector("#picHolder p").textContent = "Result";
+
         const imgSrc = document.getElementById(`imgRes2`);
 
         if (!imgSrc.src.includes(data.filename)) {
@@ -83,7 +85,7 @@ const handleInterface = (() => {
 
     /* info
      */
-    let infoContent = [
+    const holderContent = [
         {
             animal: "Animal",
             facts: ["Some very interesting facts..."],
@@ -94,6 +96,14 @@ const handleInterface = (() => {
             ],
         },
     ];
+
+    const dataTransfer = document.getElementById("dataTransfer");
+    try {
+        infoContent = JSON5.parse(dataTransfer.textContent);
+    } catch {
+        infoContent = holderContent;
+    }
+    dataTransfer.textContent = "";
 
     const info = document.getElementById(`info`);
 

@@ -20,6 +20,10 @@ const handleModel = (() => {
             }
 
             imgIn.nextElementSibling.textContent = imgIn.files[0].name;
+            document
+                .querySelectorAll(".srcHolders p")
+                .forEach((p) => (p.textContent = "Source"));
+
             const imgSrc = document.querySelector(`#imgSrc${modelId}`);
 
             if (!imgSrc.src.includes(data.filename)) {

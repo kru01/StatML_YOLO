@@ -38,6 +38,14 @@ main {
     border-radius: var(--generalBorderRad);
 }
 
+.picHolders .srcHolders p {
+    width: 100%;
+    overflow-x: scroll;
+    text-align: center;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
 #homeSeparator {
     padding: 20px;
     position: absolute;

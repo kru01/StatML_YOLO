@@ -4,6 +4,8 @@
     href="{{ url_for('static', filename='css/wiki.css') }}"
 />
 {% endblock stylesheet %} {% block script %}
+<!-- This will create a global `JSON5` variable. -->
+<script src="https://unpkg.com/json5@2/dist/index.min.js" defer></script>
 <script
     src="{{ url_for('static', filename='scripts/misc.js') }}"
     defer
@@ -25,10 +27,10 @@
         <div id="picHolder">
             <img
                 id="imgRes2"
-                src="{{ url_for('static', filename=imgFile) }}"
+                src="{{ url_for('static', filename=out2) }}"
                 alt="Result of Wildlife model's prediction on source picture"
             />
-            <p>Result</p>
+            <p>{{ src2 or "Result" }}</p>
         </div>
         <div id="infoHolder">
             <div id="info">
@@ -86,4 +88,5 @@
 <div id="navHolder">
     {% include("comps/_nav.html") %} {% include("comps/_footer.html") %}
 </div>
+<div id="dataTransfer">{{ info or "" }}</div>
 {% endblock main %}

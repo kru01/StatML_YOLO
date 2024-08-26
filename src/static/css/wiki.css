@@ -39,7 +39,7 @@ header.tooltipOff h1:hover .tooltip {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    flex: 1 1 0;
+    width: 50%;
 }
 
 #picHolder img {
@@ -47,6 +47,14 @@ header.tooltipOff h1:hover .tooltip {
     max-height: 50vh;
     box-shadow: 5px 5px 4px 0px rgb(0 0 0 / 50%);
     border-radius: var(--generalBorderRad);
+}
+
+#picHolder p {
+    width: 100%;
+    overflow-x: scroll;
+    text-align: center;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 #infoHolder {
@@ -59,14 +67,12 @@ header.tooltipOff h1:hover .tooltip {
 
 #info::-webkit-scrollbar {
     width: 5px;
-    /* background: #212121; */
     background: rgb(51, 50, 51);
     border-top-right-radius: var(--generalBorderRad);
     border-bottom-right-radius: var(--generalBorderRad);
 }
 
 #info::-webkit-scrollbar-thumb {
-    /* background: rgb(71, 70, 71); */
     background: var(--generalTxtColor);
     border-top-right-radius: var(--generalBorderRad);
     border-bottom-right-radius: var(--generalBorderRad);
@@ -79,7 +85,6 @@ header.tooltipOff h1:hover .tooltip {
     text-align: justify;
     overflow-y: scroll;
     border-radius: var(--generalBorderRad);
-    /* border: 2px solid var(--generalTxtColor); */
 
     background: rgb(51, 50, 51);
     color: rgb(201, 202, 201);
@@ -121,15 +126,7 @@ header.tooltipOff h1:hover .tooltip {
 
 #info ul li {
     text-align: left;
-    /* overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap; */
 }
-
-/* #info ul li:has(a:hover) {
-    white-space: normal;
-    text-align: left;
-} */
 
 #info ul li a {
     text-decoration: none;
@@ -223,4 +220,8 @@ header.tooltipOff h1:hover .tooltip {
         top: 80px;
         left: 25px;
     }
+}
+
+#dataTransfer {
+    display: none;
 }

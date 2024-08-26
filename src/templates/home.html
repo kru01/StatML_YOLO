@@ -31,10 +31,10 @@
         </form>
         <div class="picHolders">
             <div class="srcHolders">
-                <p>Source</p>
+                <p>{{ src1 or "Source"}}</p>
                 <img
                     id="imgSrc1"
-                    src="{{ url_for('static', filename=imgFile) }}"
+                    src="{{ url_for('static', filename=in1) }}"
                     alt="Source picture for pre-trained YOLOv10-M's prediction"
                 />
             </div>
@@ -42,7 +42,7 @@
                 <p>Result</p>
                 <img
                     id="imgRes1"
-                    src="{{ url_for('static', filename=imgFile) }}"
+                    src="{{ url_for('static', filename=out1) }}"
                     alt="Result of pre-trained YOLOv10-M's prediction on source picture"
                 />
             </div>
@@ -62,15 +62,15 @@
             <div class="srcHolders">
                 <img
                     id="imgSrc2"
-                    src="{{ url_for('static', filename=imgFile) }}"
+                    src="{{ url_for('static', filename=in2) }}"
                     alt="Source picture for Wildlife model's prediction"
                 />
-                <p>Source</p>
+                <p>{{ src2 or "Source"}}</p>
             </div>
             <div>
                 <img
                     id="imgRes2"
-                    src="{{ url_for('static', filename=imgFile) }}"
+                    src="{{ url_for('static', filename=out2) }}"
                     alt="Result of Wildlife model's prediction on source picture"
                 />
                 <p>Result</p>
