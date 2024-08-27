@@ -16,8 +16,9 @@ app.config["PLHDER_IMG"] = f"{app.config['IMG_STORE']}/placeholder.png"
 app.register_blueprint(home.router)
 app.register_blueprint(wiki.router)
 
+sched, hour_limit = BackgroundScheduler(), 6
+rm_expired_imgs(hour_limit)
 
-sched, hour_limit = BackgroundScheduler(), 12
 sched.add_job(
     func=lambda: rm_expired_imgs(hour_limit), trigger="interval", hours=hour_limit
 )
@@ -27,6 +28,7 @@ sched.start()
 @atexit.register
 def kill_sched():
     sched.shutdown()
+    rm_expired_imgs(hour_limit)
 
 
 if __name__ == "__main__":

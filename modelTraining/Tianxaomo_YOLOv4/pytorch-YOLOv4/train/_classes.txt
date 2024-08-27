@@ -1,0 +1,9 @@
+Cattle
+Chicken
+Crab
+Crocodile
+Duck
+Kangaroo
+Lion
+Mouse
+Pig

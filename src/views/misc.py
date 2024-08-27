@@ -127,8 +127,9 @@ def rm_expired_imgs(hours=12):
     :return: None.
     """
     print("-- Clearing image storage")
+    limit = time() - hours * 3600
     for item in Path(img_store_fd).glob("*"):
         if "placeholder" in item.name:
             continue
-        if item.stat().st_mtime < time() - hours * 3600:  # 1 * 60 * 60
+        if item.stat().st_mtime < limit:  # 1 * 60 * 60
             item.unlink(True)

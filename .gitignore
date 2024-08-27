@@ -1,3 +1,11 @@
+# YOLOv4
+**/pytorch-YOLOv4/train/*
+!_classes.txt
+**/pytorch-YOLOv4/*.pth
+**/Tianxaomo_YOLOv4/*.pth
+**/Tianxaomo_YOLOv4/*.jpg
+**/Tianxaomo_YOLOv4/*.png
+
 # Misc.
 *in1.*
 *out1.*

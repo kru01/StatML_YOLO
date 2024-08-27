@@ -65,3 +65,18 @@ def get_inference():
     session[f"src2"] = data["filename"]
     session[f"out2"] = f'{current_app.config["IMG_STORE"]}/{outFile}'
     return jsonify({"filename": outFile, "info": get_animal_info(names)}), 200
+
+
+@router.route("/wiki/r", methods=["GET"])
+def refresh_info():
+    if "out2_names" not in session:
+        return jsonify({"message": "No inference data"}), 500
+
+    names = session.get("out2_names", None)
+    confs = session.get("out2_confs", None)
+
+    order = request.args.get("order", default=1, type=int)
+    sort_names(names, order, confs)
+
+    print("hello")
+    return jsonify({"info": get_animal_info(names)}), 200

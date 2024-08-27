@@ -36,6 +36,20 @@
     1. Make sure `CUDA` is available before creating any `venv`, and then `Pytorch with CUDA` should be manually installed, before getting the rest of dependencies.
         1. Otherwise, [errors](https://youtu.be/d_jBX7OrptI?si=QhOhBIExe0lmb83i&t=76) might occur.
 
+### Usage
+
+#### To work with the website
+
+```python
+py .\src\app.py
+```
+
+-   Because of [a conflict between APScheduler and Flask's reloader](https://stackoverflow.com/a/15491587), the reloader is disabled. Consider not enabling the scheduler, in exchange for auto-reloading during development.
+
+#### To tinker with YOLO and train models
+
+-   Navigate to [modelTraining](modelTraining).
+
 ## Meet The Team
 
 <div align="center">

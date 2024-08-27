@@ -73,6 +73,42 @@ const handleModel = (() => {
         handleInterface.updateInfo(data.info);
         interfaceHelpers.toggleForm(imgIn, modelBn, true);
     });
+
+    const infoRefresher = document.getElementById("infoRefresher");
+    const infoSort = document.getElementById("sortPicker");
+
+    infoSort.addEventListener("click", async () => {
+        infoSort.style.pointerEvents = "none";
+        infoSort.classList.toggle("sortNames");
+
+        if (+infoSort.value !== 1) {
+            infoSort.lastElementChild.textContent = "Confidence";
+            infoSort.value = 1;
+        } else {
+            infoSort.lastElementChild.textContent = "Name";
+            infoSort.value = 0;
+        }
+
+        infoRefresher.click();
+        infoSort.style.pointerEvents = "auto";
+    });
+
+    infoRefresher.addEventListener("click", async () => {
+        infoRefresher.style.pointerEvents = "none";
+        infoRefresher.classList.add("disabled");
+
+        const res = await fetch(`/wiki/r?order=${+infoSort.value}`, {
+            method: "GET",
+        });
+
+        const data = await res.json();
+
+        if (res.status !== 200) alert(data.message);
+        else handleInterface.updateInfo(data.info);
+
+        infoRefresher.classList.remove("disabled");
+        infoRefresher.style.pointerEvents = "auto";
+    });
 })();
 
 const handleInterface = (() => {
@@ -122,7 +158,7 @@ const handleInterface = (() => {
 
             const links = document.createElement("ul");
             infoContent[i].links.forEach((ln) => {
-                const a = `<a href=${ln.url} target='_blank'>🛈  ${ln.title}</a>`;
+                const a = `<a href=${ln.url} target='_blank'>&#9432;  ${ln.title}</a>`;
                 links.innerHTML += `<li>${a}</li>`;
             });
 

@@ -1,0 +1,16 @@
+2024-08-25 09:37:44,620 train.py[line:614] INFO: Using device cpu
+2024-08-25 09:37:44,876 train.py[line:313] INFO: Starting training:
+        Epochs:          100
+        Batch size:      4
+        Subdivisions:    1
+        Learning rate:   0.001
+        Training size:   202
+        Validation size: 58
+        Checkpoints:     True
+        Device:          cpu
+        Images size:     416
+        Optimizer:       adam
+        Dataset classes: 9
+        Train label path:train.txt
+        Pretrained:
+    

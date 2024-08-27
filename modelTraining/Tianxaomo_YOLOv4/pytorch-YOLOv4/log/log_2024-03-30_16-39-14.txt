@@ -1,0 +1,54 @@
+2024-03-30 16:39:14,302 train.py[line:614] INFO: Using device cuda
+2024-03-30 16:39:26,718 train.py[line:313] INFO: Starting training:
+        Epochs:          100
+        Batch size:      4
+        Subdivisions:    1
+        Learning rate:   0.001
+        Training size:   202
+        Validation size: 58
+        Checkpoints:     True
+        Device:          cuda
+        Images size:     416
+        Optimizer:       adam
+        Dataset classes: 12
+        Train label path:train.txt
+        Pretrained:
+    
+2024-03-30 16:39:43,089 train.py[line:406] DEBUG: Train step_20: loss : 13431.6865234375,loss xy : 89.87908935546875,loss wh : 4.001640319824219,loss obj : 13137.521484375，loss cls : 200.2841796875,loss l2 : 3210.953369140625,lr : 0.001
+2024-03-30 16:39:52,767 train.py[line:406] DEBUG: Train step_40: loss : 8923.30859375,loss xy : 103.83558654785156,loss wh : 28.727373123168945,loss obj : 8592.1337890625，loss cls : 198.61245727539062,loss l2 : 1681.3814697265625,lr : 0.001
+2024-03-30 16:40:11,106 train.py[line:446] INFO: Created checkpoint directory
+2024-03-30 16:40:12,037 train.py[line:454] INFO: Checkpoint 1 saved !
+2024-03-30 16:40:22,091 train.py[line:406] DEBUG: Train step_60: loss : 6433.04345703125,loss xy : 111.2469482421875,loss wh : 7.556161403656006,loss obj : 6154.4052734375，loss cls : 159.83506774902344,loss l2 : 944.6340942382812,lr : 0.001
+2024-03-30 16:40:31,689 train.py[line:406] DEBUG: Train step_80: loss : 4551.56640625,loss xy : 85.93247985839844,loss wh : 2.5716421604156494,loss obj : 4357.47509765625，loss cls : 105.58735656738281,loss l2 : 502.47314453125,lr : 0.001
+2024-03-30 16:40:39,645 train.py[line:406] DEBUG: Train step_100: loss : 3465.536865234375,loss xy : 39.15488815307617,loss wh : 0.7748105525970459,loss obj : 3371.462158203125，loss cls : 54.14507293701172,loss l2 : 305.69781494140625,lr : 0.001
+2024-03-30 16:40:53,083 train.py[line:446] INFO: Created checkpoint directory
+2024-03-30 16:40:54,098 train.py[line:454] INFO: Checkpoint 2 saved !
+2024-03-30 16:41:07,761 train.py[line:406] DEBUG: Train step_120: loss : 3519.5771484375,loss xy : 306.657470703125,loss wh : 25.129127502441406,loss obj : 2813.792724609375，loss cls : 373.9977111816406,loss l2 : 409.60137939453125,lr : 0.001
+2024-03-30 16:41:17,856 train.py[line:406] DEBUG: Train step_140: loss : 2507.278564453125,loss xy : 136.09683227539062,loss wh : 24.17392921447754,loss obj : 2180.820556640625，loss cls : 166.18736267089844,loss l2 : 239.25303649902344,lr : 0.001
+2024-03-30 16:41:43,350 train.py[line:446] INFO: Created checkpoint directory
+2024-03-30 16:41:44,253 train.py[line:454] INFO: Checkpoint 3 saved !
+2024-03-30 16:41:54,750 train.py[line:406] DEBUG: Train step_160: loss : 2058.91259765625,loss xy : 89.61843872070312,loss wh : 25.65975570678711,loss obj : 1815.162353515625，loss cls : 128.47215270996094,loss l2 : 198.02545166015625,lr : 0.001
+2024-03-30 16:42:03,704 train.py[line:406] DEBUG: Train step_180: loss : 1752.654296875,loss xy : 115.4626693725586,loss wh : 4.437141418457031,loss obj : 1489.683837890625，loss cls : 143.07061767578125,loss l2 : 123.04637145996094,lr : 0.001
+2024-03-30 16:42:11,852 train.py[line:406] DEBUG: Train step_200: loss : 1679.07861328125,loss xy : 165.62026977539062,loss wh : 12.3678617477417,loss obj : 1314.862548828125，loss cls : 186.22792053222656,loss l2 : 147.60585021972656,lr : 0.001
+2024-03-30 16:42:24,634 train.py[line:446] INFO: Created checkpoint directory
+2024-03-30 16:42:25,493 train.py[line:454] INFO: Checkpoint 4 saved !
+2024-03-30 16:42:39,734 train.py[line:406] DEBUG: Train step_220: loss : 1240.3289794921875,loss xy : 74.98363494873047,loss wh : 4.686035633087158,loss obj : 1085.8154296875，loss cls : 74.84382629394531,loss l2 : 69.4705581665039,lr : 0.001
+2024-03-30 16:42:48,735 train.py[line:406] DEBUG: Train step_240: loss : 1330.54833984375,loss xy : 141.94259643554688,loss wh : 32.95979309082031,loss obj : 987.977783203125，loss cls : 167.6682586669922,loss l2 : 160.20193481445312,lr : 0.001
+2024-03-30 16:43:05,476 train.py[line:446] INFO: Created checkpoint directory
+2024-03-30 16:43:06,341 train.py[line:454] INFO: Checkpoint 5 saved !
+2024-03-30 16:43:16,251 train.py[line:406] DEBUG: Train step_260: loss : 1208.251953125,loss xy : 151.99472045898438,loss wh : 11.325368881225586,loss obj : 873.612548828125，loss cls : 171.3192901611328,loss l2 : 114.50016784667969,lr : 0.001
+2024-03-30 16:43:26,081 train.py[line:406] DEBUG: Train step_280: loss : 1117.2645263671875,loss xy : 140.63809204101562,loss wh : 30.103971481323242,loss obj : 802.2314453125，loss cls : 144.29100036621094,loss l2 : 145.65113830566406,lr : 0.001
+2024-03-30 16:43:35,191 train.py[line:406] DEBUG: Train step_300: loss : 725.9852905273438,loss xy : 38.1716423034668,loss wh : 0.9613015651702881,loss obj : 646.8915405273438，loss cls : 39.9608154296875,loss l2 : 28.453351974487305,lr : 0.001
+2024-03-30 16:43:49,871 train.py[line:446] INFO: Created checkpoint directory
+2024-03-30 16:43:50,888 train.py[line:454] INFO: Checkpoint 6 saved !
+2024-03-30 16:44:05,086 train.py[line:406] DEBUG: Train step_320: loss : 889.0992431640625,loss xy : 127.58502960205078,loss wh : 5.878507614135742,loss obj : 617.6847534179688，loss cls : 137.95095825195312,loss l2 : 79.36267852783203,lr : 0.001
+2024-03-30 16:44:15,116 train.py[line:406] DEBUG: Train step_340: loss : 772.3995971679688,loss xy : 96.75628662109375,loss wh : 12.87741470336914,loss obj : 560.7152709960938，loss cls : 102.05061340332031,loss l2 : 76.27300262451172,lr : 0.001
+2024-03-30 16:44:34,774 train.py[line:446] INFO: Created checkpoint directory
+2024-03-30 16:44:35,829 train.py[line:454] INFO: Checkpoint 7 saved !
+2024-03-30 16:44:46,278 train.py[line:406] DEBUG: Train step_360: loss : 620.3641967773438,loss xy : 61.10057830810547,loss wh : 3.7244226932525635,loss obj : 492.03790283203125，loss cls : 63.501277923583984,loss l2 : 41.85432434082031,lr : 0.001
+2024-03-30 16:45:00,288 train.py[line:406] DEBUG: Train step_380: loss : 626.1357421875,loss xy : 84.40862274169922,loss wh : 2.7059590816497803,loss obj : 449.5331726074219，loss cls : 89.48797607421875,loss l2 : 47.083499908447266,lr : 0.001
+2024-03-30 16:45:08,927 train.py[line:406] DEBUG: Train step_400: loss : 741.2359619140625,loss xy : 135.1277313232422,loss wh : 11.394744873046875,loss obj : 450.2432861328125，loss cls : 144.47018432617188,loss l2 : 88.29431915283203,lr : 0.001
+2024-03-30 16:45:22,645 train.py[line:446] INFO: Created checkpoint directory
+2024-03-30 16:45:23,622 train.py[line:454] INFO: Checkpoint 8 saved !
+2024-03-30 16:45:38,682 train.py[line:406] DEBUG: Train step_420: loss : 986.2820434570312,loss xy : 229.54534912109375,loss wh : 26.189117431640625,loss obj : 477.3077392578125，loss cls : 253.23980712890625,loss l2 : 166.1767578125,lr : 0.001
+2024-03-30 16:45:44,862 train.py[line:635] INFO: Saved interrupt

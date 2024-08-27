@@ -1,722 +1,722 @@
 {
-  "Bull": {
-    "facts": [
-      "Bulls are adult male cattle and are known for their strength and aggression.",
-      "They can weigh between 1,000 and 2,000 pounds, depending on the breed.",
-      "Bulls have been used in various cultures for centuries in religious rituals and agriculture.",
-      "Their horns can grow up to 6 feet in length, depending on the breed.",
-      "Bulls are typically more aggressive than cows and can become dangerous if provoked.",
-      "In many countries, bullfighting is a traditional sport, though it is controversial and banned in some areas."
-    ],
-    "links": [
-      {
-        "title": "Bull Facts - National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/mammals/facts/bull"
-      },
-      {
-        "title": "Understanding Bulls - Britannica",
-        "url": "https://www.britannica.com/animal/bull-mammal"
-      },
-      {
-        "title": "The Strength of Bulls - Science News",
-        "url": "https://www.sciencenews.org/article/bulls-strength-muscles"
-      },
-      {
-        "title": "Bulls in Agriculture - Farm Progress",
-        "url": "https://www.farmprogress.com/cattle/bulls-agriculture"
-      },
-      {
-        "title": "Bullfighting: History and Controversy - History.com",
-        "url": "https://www.history.com/topics/latin-america/bullfighting"
-      },
-      {
-        "title": "The Role of Bulls in Mythology - Mythology.net",
-        "url": "https://mythology.net/animals/bulls/"
-      }
-    ]
-  },
-  "Butterfly": {
-    "facts": [
-      "Butterflies have four wings covered in tiny, colorful scales.",
-      "They go through four stages of metamorphosis: egg, larva (caterpillar), pupa (chrysalis), and adult.",
-      "Some butterfly species migrate thousands of miles, like the monarch butterfly.",
-      "Butterflies have taste sensors on their feet to help them find food.",
-      "The average lifespan of a butterfly ranges from a few weeks to several months, depending on the species.",
-      "Butterflies play a crucial role in pollination, helping many plants reproduce."
-    ],
-    "links": [
-      {
-        "title": "Butterfly Facts - National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/invertebrates/facts/butterfly"
-      },
-      {
-        "title": "The Life Cycle of Butterflies - Britannica",
-        "url": "https://www.britannica.com/animal/butterfly-insect"
-      },
-      {
-        "title": "Butterfly Migration - Monarch Watch",
-        "url": "https://monarchwatch.org/biology/migration.html"
-      },
-      {
-        "title": "Why Do Butterflies Migrate? - LiveScience",
-        "url": "https://www.livescience.com/58620-why-butterflies-migrate.html"
-      },
-      {
-        "title": "How Butterflies Taste with Their Feet - Scientific American",
-        "url": "https://www.scientificamerican.com/article/how-butterflies-taste-with-their-feet/"
-      },
-      {
-        "title": "Butterflies and Pollination - Nature.org",
-        "url": "https://www.nature.org/en-us/get-involved/how-to-help/pollinators/butterflies/"
-      }
-    ]
-  },
-  "Camel": {
-    "facts": [
-      "Camels are known as the 'ships of the desert' due to their ability to travel long distances across sand.",
-      "They can go for several days without water, thanks to their ability to store fat in their humps.",
-      "There are three species of camels: the dromedary (one hump), the Bactrian (two humps), and the wild Bactrian.",
-      "Camels have long, curved eyelashes and thick eyebrows to protect their eyes from sand and sun.",
-      "Their broad, padded feet help them walk on sand without sinking.",
-      "Camels can close their nostrils during sandstorms to keep sand out."
-    ],
-    "links": [
-      {
-        "title": "Camel Facts - National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/mammals/facts/camel"
-      },
-      {
-        "title": "All About Camels - Britannica",
-        "url": "https://www.britannica.com/animal/camel-mammal"
-      },
-      {
-        "title": "How Camels Survive in the Desert - Science News",
-        "url": "https://www.sciencenews.org/article/camels-desert-adaptation"
-      },
-      {
-        "title": "The Evolution of Camels - LiveScience",
-        "url": "https://www.livescience.com/33625-evolution-of-camels.html"
-      },
-      {
-        "title": "Camels: Adaptations for the Desert - Scientific American",
-        "url": "https://www.scientificamerican.com/article/camels-desert-adaptations/"
-      },
-      {
-        "title": "The Life of a Camel - Nature.org",
-        "url": "https://www.nature.org/en-us/get-involved/how-to-help/pollinators/camels/"
-      }
-    ]
-  },
-  "Cattle": {
-    "facts": [
-      "Cattle are domesticated bovines used for their meat, milk, and hides.",
-      "There are two main species: Bos taurus (domestic cattle) and Bos indicus (zebu).",
-      "Cattle have been domesticated for over 10,000 years.",
-      "They have a complex digestive system with four stomach compartments to break down tough plant materials.",
-      "Cattle communicate with each other using vocalizations, body language, and scent.",
-      "The average lifespan of a domesticated cattle is 15 to 20 years."
-    ],
-    "links": [
-      {
-        "title": "Cattle Facts - National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/mammals/facts/cattle"
-      },
-      {
-        "title": "Understanding Cattle - Britannica",
-        "url": "https://www.britannica.com/animal/cattle-mammal"
-      },
-      {
-        "title": "The History of Cattle Domestication - LiveScience",
-        "url": "https://www.livescience.com/32756-history-of-cattle-domestication.html"
-      },
-      {
-        "title": "Cattle Digestion Explained - Scientific American",
-        "url": "https://www.scientificamerican.com/article/how-cattle-digest-food/"
-      },
-      {
-        "title": "Cattle Communication - Science News",
-        "url": "https://www.sciencenews.org/article/cattle-communication"
-      },
-      {
-        "title": "The Role of Cattle in Agriculture - Farm Progress",
-        "url": "https://www.farmprogress.com/cattle"
-      }
-    ]
-  },
-  "Chicken": {
-    "facts": [
-      "Chickens are domesticated birds raised for their eggs and meat.",
-      "There are more chickens in the world than any other bird species.",
-      "Chickens have excellent color vision and can see in full color.",
-      "They communicate using a range of vocalizations, including clucks, crows, and cackles.",
-      "Chickens have a unique social structure known as a pecking order.",
-      "They can remember and recognize up to 100 different faces of other chickens."
-    ],
-    "links": [
-      {
-        "title": "Chicken Facts - National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/birds/facts/chicken"
-      },
-      {
-        "title": "All About Chickens - Britannica",
-        "url": "https://www.britannica.com/animal/chicken-bird"
-      },
-      {
-        "title": "The Social Behavior of Chickens - Science News",
-        "url": "https://www.sciencenews.org/article/chicken-behavior"
-      },
-      {
-        "title": "Why Chickens Have Great Color Vision - Scientific American",
-        "url": "https://www.scientificamerican.com/article/how-chickens-see-color/"
-      },
-      {
-        "title": "The Pecking Order in Chickens - LiveScience",
-        "url": "https://www.livescience.com/31243-pecking-order-chickens.html"
-      },
-      {
-        "title": "Chicken Communication and Vocalizations - Animal Behavior",
-        "url": "https://animalbehavior.com/chicken-communication/"
-      }
-    ]
-  },
-  "Crab": {
-    "facts": [
-      "Crabs have a hard exoskeleton that they must molt as they grow.",
-      "There are over 6,800 species of crabs, found in oceans, freshwater, and on land.",
-      "Crabs use their pincers for feeding, fighting, and communication.",
-      "The largest species of crab is the Japanese spider crab, with a leg span of up to 12 feet.",
-      "Crabs can walk in all directions, but they typically move sideways.",
-      "Some crabs can regenerate lost limbs over time."
-    ],
-    "links": [
-      {
-        "title": "Crab Facts - National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/invertebrates/facts/crabs"
-      },
-      {
-        "title": "Learn About Crabs - Britannica",
-        "url": "https://www.britannica.com/animal/crab"
-      },
-      {
-        "title": "The Molting Process in Crabs - LiveScience",
-        "url": "https://www.livescience.com/32396-why-do-crabs-molt.html"
-      },
-      {
-        "title": "The World's Largest Crab - Ocean Conservancy",
-        "url": "https://oceanconservancy.org/blog/2019/10/16/worlds-largest-crab/"
-      },
-      {
-        "title": "The Fiddler Crab and Its Unique Claw - MarineBio",
-        "url": "https://www.marinebio.org/species/fiddler-crab/"
-      },
-      {
-        "title": "Crabs: Masters of Adaptation - MarineBio",
-        "url": "https://www.marinebio.org/species/crabs/"
-      }
-    ]
-  },
-  "Crocodile": {
-    "facts": [
-      "Crocodiles have existed for over 200 million years.",
-      "They have the strongest bite of any animal, with a force of over 3,700 pounds per square inch.",
-      "Crocodiles can go for months without eating.",
-      "They can stay underwater for up to an hour.",
-      "Crocodiles have a highly developed sense of hearing.",
-      "They have salt glands in their tongues to survive in salty environments."
-    ],
-    "links": [
-      {
-        "title": "Crocodile Facts - National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/reptiles/facts/crocodiles"
-      },
-      {
-        "title": "All About Crocodiles - Britannica",
-        "url": "https://www.britannica.com/animal/crocodile-reptile"
-      },
-      {
-        "title": "The Evolution of Crocodiles - LiveScience",
-        "url": "https://www.livescience.com/27692-crocodiles.html"
-      },
-      {
-        "title": "Why Do Crocodiles Have Such Strong Bites? - National Geographic",
-        "url": "https://www.nationalgeographic.com/science/article/why-crocodiles-have-such-strong-bites"
-      },
-      {
-        "title": "Crocodiles' Adaptations to Salty Environments - PBS",
-        "url": "https://www.pbs.org/wgbh/nova/article/crocodile-adaptations/"
-      },
-      {
-        "title": "The Longest-Living Crocodiles - Guinness World Records",
-        "url": "https://www.guinessworldrecords.com/world-records/longest-living-crocodile"
-      }
-    ]
-  },
-  "Duck": {
-    "facts": [
-      "Ducks are omnivores and eat a variety of foods.",
-      "They have waterproof feathers due to an oily substance produced by their uropygial gland.",
-      "There are over 120 species of ducks.",
-      "Ducks have a wide range of vocalizations.",
-      "Many duck species are migratory.",
-      "Ducks can see in nearly all directions at once."
-    ],
-    "links": [
-      {
-        "title": "Duck Facts - National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/birds/facts/duck"
-      },
-      {
-        "title": "Learn About Ducks - Britannica",
-        "url": "https://www.britannica.com/animal/duck"
-      },
-      {
-        "title": "The Migration of Ducks - Audubon",
-        "url": "https://www.audubon.org/news/why-and-how-ducks-migrate"
-      },
-      {
-        "title": "Why Ducks Don't Get Wet - Scientific American",
-        "url": "https://www.scientificamerican.com/article/how-ducks-stay-dry/"
-      },
-      {
-        "title": "The World of Ducks: Diversity and Adaptations - All About Birds",
-        "url": "https://www.allaboutbirds.org/guide/browse/shape/ducks-geese-swans"
-      },
-      {
-        "title": "How Ducks See the World - The Spruce",
-        "url": "https://www.thespruce.com/what-do-ducks-see-4072577"
-      }
-    ]
-  },
-  "Frog": {
-    "facts": [
-      "Frogs have permeable skin that absorbs water and oxygen.",
-      "They are known for their powerful jumping ability.",
-      "Frogs can lay thousands of eggs at once, which hatch into tadpoles.",
-      "Many frog species have toxic skin secretions.",
-      "Frogs use their large, bulging eyes to see in nearly all directions.",
-      "The world's smallest frog, Paedophryne amauensis, measures just 7.7 millimeters in length."
-    ],
-    "links": [
-      {
-        "title": "Frog Facts - National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/amphibians/facts/frogs"
-      },
-      {
-        "title": "All About Frogs - Britannica",
-        "url": "https://www.britannica.com/animal/frog-amphibian"
-      },
-      {
-        "title": "The Life Cycle of a Frog - LiveScience",
-        "url": "https://www.livescience.com/32903-frog-life-cycle.html"
-      },
-      {
-        "title": "Why Frogs Are So Important - World Wildlife Fund",
-        "url": "https://www.worldwildlife.org/species/frog"
-      },
-      {
-        "title": "Frogs: Masters of Camouflage - Discover Wildlife",
-        "url": "https://www.discoverwildlife.com/animal-facts/amphibians/facts-about-frogs/"
-      },
-      {
-        "title": "The Toxic Skin of Frogs - Science.org",
-        "url": "https://www.science.org.au/curious/everything-else/frogs-their-poisonous-skin"
-      }
-    ]
-  },
-  "Hippopotamus": {
-    "facts": [
-      "Hippos are excellent swimmers and can hold their breath underwater for up to five minutes.",
-      "They spend most of their day in the water to stay cool.",
-      "Hippos are highly territorial in water.",
-      "They have large, sharp canine teeth that can grow up to 20 inches long.",
-      "Hippos are considered one of the most dangerous animals in Africa.",
-      "They communicate using a variety of vocalizations, including grunts and wheezes."
-    ],
-    "links": [
-      {
-        "title": "Hippopotamus Facts - National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/mammals/facts/hippopotamus"
-      },
-      {
-        "title": "All About Hippos - LiveScience",
-        "url": "https://www.livescience.com/27349-hippos.html"
-      },
-      {
-        "title": "The Deadly Hippo: Why They Are So Dangerous - BBC Earth",
-        "url": "https://www.bbc.com/earth/story/20170203-why-hippos-are-one-of-the-most-dangerous-animals"
-      },
-      {
-        "title": "How Hippos Stay Cool - Scientific American",
-        "url": "https://www.scientificamerican.com/article/how-hippos-stay-cool/"
-      },
-      {
-        "title": "The Secret Life of Hippos - Britannica",
-        "url": "https://www.britannica.com/animal/hippopotamus-mammal"
-      },
-      {
-        "title": "Hippos: River Giants - PBS Nature",
-        "url": "https://www.pbs.org/wnet/nature/hippos-facts/2574/"
-      }
-    ]
-  },
-  "Kangaroo": {
-    "facts": [
-      "Kangaroos are marsupials with young that develop in the mother's pouch.",
-      "They are the only large animals that use hopping as their primary means of movement.",
-      "A kangaroo's powerful hind legs allow it to cover up to 25 feet in a single bound.",
-      "Kangaroos can reach speeds of up to 35 miles per hour.",
-      "Male kangaroos box each other to establish dominance.",
-      "There are four species of kangaroos, with the red kangaroo being the largest."
-    ],
-    "links": [
-      {
-        "title": "Kangaroo Facts - National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/mammals/facts/kangaroo"
-      },
-      {
-        "title": "All About Kangaroos - Britannica",
-        "url": "https://www.britannica.com/animal/kangaroo-mammal"
-      },
-      {
-        "title": "Why Kangaroos Hop - Scientific American",
-        "url": "https://www.scientificamerican.com/article/why-do-kangaroos-hop/"
-      },
-      {
-        "title": "The Life of a Kangaroo - LiveScience",
-        "url": "https://www.livescience.com/27400-kangaroos.html"
-      },
-      {
-        "title": "The Unique Biology of Kangaroos - Australian Geographic",
-        "url": "https://www.australiangeographic.com.au/topics/wildlife/kangaroos/"
-      },
-      {
-        "title": "Kangaroo Behavior and Social Structure - Nature.org",
-        "url": "https://www.nature.org/en-us/get-involved/how-to-help/pollinators/kangaroos/"
-      }
-    ]
-  },
-  "Lion": {
-    "facts": [
-      "Lions are known as the 'king of the jungle' due to their majestic appearance and social behavior.",
-      "They live in groups called prides, which are usually led by a dominant male.",
-      "Lions are the only cats that live in social groups.",
-      "They have a powerful roar that can be heard up to 5 miles away.",
-      "Male lions have a distinctive mane, which is unique to each individual.",
-      "Lions are apex predators and primarily hunt large herbivores such as buffalo and zebras."
-    ],
-    "links": [
-      {
-        "title": "Lion Facts - National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/mammals/facts/lion"
-      },
-      {
-        "title": "All About Lions - Britannica",
-        "url": "https://www.britannica.com/animal/lion-mammal"
-      },
-      {
-        "title": "The Social Structure of Lions - Science News",
-        "url": "https://www.sciencenews.org/article/lion-pride-social-structure"
-      },
-      {
-        "title": "Why Lions Roar - Scientific American",
-        "url": "https://www.scientificamerican.com/article/why-do-lions-roar/"
-      },
-      {
-        "title": "The Unique Mane of Lions - Nature.org",
-        "url": "https://www.nature.org/en-us/get-involved/how-to-help/pollinators/lions/"
-      },
-      {
-        "title": "Lion Hunting and Prey - LiveScience",
-        "url": "https://www.livescience.com/27394-lion-hunting-behavior.html"
-      }
-    ]
-  },
-  "Pig": {
-    "facts": [
-      "Pigs are highly intelligent animals and are often considered one of the smartest non-primate species.",
-      "They have a highly developed sense of smell, which they use to find food.",
-      "Pigs can learn to navigate mazes and respond to their names.",
-      "They have a unique way of communicating using a variety of grunts and squeals.",
-      "Pigs are omnivores and can eat a wide range of foods, including fruits, vegetables, and meat.",
-      "The domestic pig is descended from wild boars, and there are over 2 billion pigs worldwide."
-    ],
-    "links": [
-      {
-        "title": "Pig Facts - National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/mammals/facts/pig"
-      },
-      {
-        "title": "All About Pigs - Britannica",
-        "url": "https://www.britannica.com/animal/pig-mammal"
-      },
-      {
-        "title": "The Intelligence of Pigs - Scientific American",
-        "url": "https://www.scientificamerican.com/article/the-intelligence-of-pigs/"
-      },
-      {
-        "title": "How Pigs Communicate - Science News",
-        "url": "https://www.sciencenews.org/article/pig-communication"
-      },
-      {
-        "title": "The Evolution of Domestic Pigs - LiveScience",
-        "url": "https://www.livescience.com/33315-domestic-pigs-evolution.html"
-      },
-      {
-        "title": "Pigs: Adaptations and Behavior - Animal Behavior",
-        "url": "https://animalbehavior.com/pigs/"
-      }
-    ]
-  },
-  "Rabbit": {
-    "facts": [
-      "Rabbits have large ears that help them detect predators from a distance.",
-      "They are crepuscular, meaning they are most active during dawn and dusk.",
-      "Rabbits have a special digestive system that allows them to re-ingest their own feces to obtain essential nutrients.",
-      "They can jump up to 3 feet high and run at speeds of up to 35 miles per hour.",
-      "Rabbits live in complex burrow systems called warrens.",
-      "There are over 300 breeds of domestic rabbits."
-    ],
-    "links": [
-      {
-        "title": "Rabbit Facts - National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/mammals/facts/rabbit"
-      },
-      {
-        "title": "All About Rabbits - Britannica",
-        "url": "https://www.britannica.com/animal/rabbit-mammal"
-      },
-      {
-        "title": "The Digestive System of Rabbits - LiveScience",
-        "url": "https://www.livescience.com/33362-rabbit-digestion.html"
-      },
-      {
-        "title": "How Rabbits Use Their Ears - Scientific American",
-        "url": "https://www.scientificamerican.com/article/how-rabbits-use-their-ears/"
-      },
-      {
-        "title": "The Complex Burrows of Rabbits - Nature.org",
-        "url": "https://www.nature.org/en-us/get-involved/how-to-help/pollinators/rabbits/"
-      },
-      {
-        "title": "The Diversity of Domestic Rabbits - Animal Behavior",
-        "url": "https://animalbehavior.com/rabbits/"
-      }
-    ]
-  },
-  "Snail": {
-    "facts": [
-      "Snails are mollusks that have a soft, unsegmented body and usually a hard shell.",
-      "They have a specialized organ called a radula, which they use to scrape food particles.",
-      "Some snails can live up to 10 years, depending on the species.",
-      "They produce mucus to help them move and to protect their bodies from rough surfaces.",
-      "Snails have tentacles on their heads that serve as sensory organs.",
-      "Land snails are hermaphrodites, meaning they have both male and female reproductive organs."
-    ],
-    "links": [
-      {
-        "title": "Snail Facts - National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/invertebrates/facts/snail"
-      },
-      {
-        "title": "All About Snails - Britannica",
-        "url": "https://www.britannica.com/animal/snail"
-      },
-      {
-        "title": "How Snails Move and Use Mucus - Scientific American",
-        "url": "https://www.scientificamerican.com/article/how-snails-move/"
-      },
-      {
-        "title": "The Life Cycle of a Snail - LiveScience",
-        "url": "https://www.livescience.com/33735-snail-life-cycle.html"
-      },
-      {
-        "title": "Snail Anatomy and Adaptations - Nature.org",
-        "url": "https://www.nature.org/en-us/get-involved/how-to-help/pollinators/snails/"
-      },
-      {
-        "title": "Hermaphroditism in Land Snails - Animal Behavior",
-        "url": "https://animalbehavior.com/snails/hermaphroditism/"
-      }
-    ]
-  },
-  "Snake": {
-    "facts": [
-      "Snakes are legless reptiles with elongated bodies and are found in a variety of habitats.",
-      "They use their tongue to 'smell' their environment by picking up scent particles.",
-      "Most snakes are non-venomous and kill their prey by constriction.",
-      "Some snake species are highly venomous, with toxins that can paralyze or kill their prey.",
-      "Snakes shed their skin regularly to allow for growth and remove parasites.",
-      "There are over 3,000 species of snakes, with varying sizes and adaptations."
-    ],
-    "links": [
-      {
-        "title": "Snake Facts - National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/reptiles/facts/snake"
-      },
-      {
-        "title": "All About Snakes - Britannica",
-        "url": "https://www.britannica.com/animal/snake-reptile"
-      },
-      {
-        "title": "How Snakes Use Their Tongues - Scientific American",
-        "url": "https://www.scientificamerican.com/article/how-snakes-use-their-tongues/"
-      },
-      {
-        "title": "The Evolution and Adaptations of Snakes - LiveScience",
-        "url": "https://www.livescience.com/33008-snake-evolution.html"
-      },
-      {
-        "title": "The Venomous Snakes of the World - Nature.org",
-        "url": "https://www.nature.org/en-us/get-involved/how-to-help/pollinators/snakes/"
-      },
-      {
-        "title": "Snake Skin Shedding - Science News",
-        "url": "https://www.sciencenews.org/article/snake-skin-shedding"
-      }
-    ]
-  },
-  "Turtle": {
-    "facts": [
-      "Turtles have a hard shell called a carapace that protects them from predators.",
-      "They are one of the oldest reptile groups, dating back over 200 million years.",
-      "Turtles can live both in water and on land, with species adapted to different environments.",
-      "Some turtles can hold their breath for several hours while underwater.",
-      "They have a slow metabolism, which allows them to survive on limited food resources.",
-      "The largest turtle species is the leatherback sea turtle, which can weigh over 2,000 pounds."
-    ],
-    "links": [
-      {
-        "title": "Turtle Facts - National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/reptiles/facts/turtle"
-      },
-      {
-        "title": "All About Turtles - Britannica",
-        "url": "https://www.britannica.com/animal/turtle-reptile"
-      },
-      {
-        "title": "The Evolution of Turtles - LiveScience",
-        "url": "https://www.livescience.com/34067-turtles.html"
-      },
-      {
-        "title": "Turtle Anatomy and Adaptations - Science News",
-        "url": "https://www.sciencenews.org/article/turtle-anatomy-adaptations"
-      },
-      {
-        "title": "The Largest Turtle Species - National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/reptiles/facts/leatherback-sea-turtle"
-      },
-      {
-        "title": "Turtles: Ancient Reptiles with Modern Adaptations - Nature.org",
-        "url": "https://www.nature.org/en-us/get-involved/how-to-help/pollinators/turtles/"
-      }
-    ]
-  },
-  "Sheep": {
-    "facts": [
-      "Sheep have excellent memories and can recognize up to 50 individual faces of other sheep.",
-      "They are social animals that prefer to live in flocks and have a strong flocking instinct.",
-      "Sheep have been domesticated for thousands of years, primarily for their wool, meat, and milk.",
-      "They have a unique digestive system with a four-chambered stomach that helps them break down tough plant materials.",
-      "Sheep are ruminants, meaning they chew cud, a process that allows them to digest their food more thoroughly.",
-      "The wool of sheep can be used to make a variety of textiles and is highly valued in the textile industry."
-    ],
-    "links": [
-      {
-        "title": "Sheep Facts - National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/mammals/facts/sheep"
-      },
-      {
-        "title": "All About Sheep - Britannica",
-        "url": "https://www.britannica.com/animal/sheep-mammal"
-      },
-      {
-        "title": "The Social Behavior of Sheep - Science News",
-        "url": "https://www.sciencenews.org/article/sheep-social-behavior"
-      },
-      {
-        "title": "How Sheep Digest Food - LiveScience",
-        "url": "https://www.livescience.com/33928-sheep-digestion.html"
-      },
-      {
-        "title": "The Importance of Sheep Wool - Woolmark",
-        "url": "https://www.woolmark.com/about-wool/the-wool-fiber/"
-      },
-      {
-        "title": "The History of Sheep Domestication - Nature.org",
-        "url": "https://www.nature.org/en-us/get-involved/how-to-help/pollinators/sheep-domestication/"
-      }
-    ]
-  },
-  "Mouse": {
-    "facts": [
-      "Mice are highly adaptable and can live in a variety of environments, including urban areas and rural fields.",
-      "They have an acute sense of smell, which helps them find food and navigate their surroundings.",
-      "Mice are nocturnal creatures, meaning they are most active during the night.",
-      "They have sharp incisors that grow continuously throughout their lives.",
-      "Mice communicate using high-frequency vocalizations that are often inaudible to humans.",
-      "In scientific research, mice are commonly used as model organisms due to their genetic similarities to humans."
-    ],
-    "links": [
-      {
-        "title": "Mouse Facts - National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/mammals/facts/mouse"
-      },
-      {
-        "title": "All About Mice - Britannica",
-        "url": "https://www.britannica.com/animal/mouse-mammal"
-      },
-      {
-        "title": "The Adaptability of Mice - Science News",
-        "url": "https://www.sciencenews.org/article/mice-adaptability"
-      },
-      {
-        "title": "How Mice Use Their Sense of Smell - LiveScience",
-        "url": "https://www.livescience.com/33710-mice-sense-of-smell.html"
-      },
-      {
-        "title": "Mice as Model Organisms in Research - National Institutes of Health",
-        "url": "https://www.nih.gov/research-training/research-resources/mice-model-organisms"
-      },
-      {
-        "title": "The Nocturnal Behavior of Mice - Animal Behavior",
-        "url": "https://animalbehavior.com/mice-nocturnal-behavior/"
-      }
-    ]
-  },
-  "Fox": {
-    "facts": [
-      "Foxes are highly adaptable animals and can thrive in diverse habitats, including forests, grasslands, and urban areas.",
-      "They are known for their cunning and clever behavior, often using their intelligence to find food and evade predators.",
-      "Foxes have a varied diet and are omnivorous, eating fruits, insects, small mammals, and birds.",
-      "Their bushy tails, or 'brushes,' are used for balance and communication.",
-      "Foxes have excellent hearing and can detect the sounds of small animals from a distance.",
-      "The red fox is the most common and widely distributed species of fox, known for its striking orange-red fur."
-    ],
-    "links": [
-      {
-        "title": "Fox Facts - National Geographic",
-        "url": "https://www.nationalgeographic.com/animals/mammals/facts/fox"
-      },
-      {
-        "title": "All About Foxes - Britannica",
-        "url": "https://www.britannica.com/animal/fox-mammal"
-      },
-      {
-        "title": "The Behavior and Adaptability of Foxes - LiveScience",
-        "url": "https://www.livescience.com/33348-fox-behavior.html"
-      },
-      {
-        "title": "How Foxes Use Their Tails - Scientific American",
-        "url": "https://www.scientificamerican.com/article/fox-tails/"
-      },
-      {
-        "title": "The Red Fox: Adaptations and Diet - Nature.org",
-        "url": "https://www.nature.org/en-us/get-involved/how-to-help/pollinators/red-fox/"
-      },
-      {
-        "title": "Foxes in Urban Areas - Science News",
-        "url": "https://www.sciencenews.org/article/foxes-urban-areas"
-      }
-    ]
-  }
+    "Bull": {
+        "facts": [
+            "Bulls are adult male cattle and are known for their strength and aggression.",
+            "They can weigh between 1,000 and 2,000 pounds, depending on the breed.",
+            "Bulls have been used in various cultures for centuries in religious rituals and agriculture.",
+            "Their horns can grow up to 6 feet in length, depending on the breed.",
+            "Bulls are typically more aggressive than cows and can become dangerous if provoked.",
+            "In many countries, bullfighting is a traditional sport, though it is controversial and banned in some areas."
+        ],
+        "links": [
+            {
+                "title": "Bulls | The Humane Society of the United States",
+                "url": "https://www.humanesociety.org/animals/bulls"
+            },
+            {
+                "title": "17 Facts About Bull",
+                "url": "https://facts.net/nature/animals/17-facts-about-bull/"
+            },
+            {
+                "title": "Evaluation of fertility and infertility in natural service bulls",
+                "url": "https://doi.org/10.1016/j.tvjl.2003.10.017"
+            },
+            {
+                "title": "Fun Facts About Cows And Bulls",
+                "url": "https://www.worldanimalprotection.org.au/education/animal-facts/cows/"
+            },
+            {
+                "title": "Bullfighting in One Minute",
+                "url": "https://www.peta.org/videos/bullfighting-one-minute/"
+            },
+            {
+                "title": "Mythology of The Bull",
+                "url": "https://cedarhurst.org/mythology-of-the-bull/"
+            }
+        ]
+    },
+    "Butterfly": {
+        "facts": [
+            "Butterflies have four wings covered in tiny, colorful scales.",
+            "They go through four stages of metamorphosis: egg, larva (caterpillar), pupa (chrysalis), and adult.",
+            "Some butterfly species migrate thousands of miles, like the monarch butterfly.",
+            "Butterflies have taste sensors on their feet to help them find food.",
+            "The average lifespan of a butterfly ranges from a few weeks to several months, depending on the species.",
+            "Butterflies play a crucial role in pollination, helping many plants reproduce."
+        ],
+        "links": [
+            {
+                "title": "19 Fascinating Butterfly Facts",
+                "url": "https://stories.sandiegozoo.org/2015/03/15/19-fascinating-butterfly-facts/"
+            },
+            {
+                "title": "Butterfly Life Cycle",
+                "url": "https://ansp.org/exhibits/online-exhibits/butterflies/lifecycle/"
+            },
+            {
+                "title": "Butterfly facts",
+                "url": "https://www.londonzoo.org/whats-here/habitats/butterfly-paradise/butterfly-facts"
+            },
+            {
+                "title": "Monarch Butterfly Migration and Overwintering",
+                "url": "https://www.fs.usda.gov/wildflowers/pollinators/Monarch_Butterfly/migration/index.shtml"
+            },
+            {
+                "title": "Do butterflies taste with their feet? - RSPB England",
+                "url": "https://community.rspb.org.uk/ourwork/b/rspb-england/posts/do-butterflies-taste-with-their-feet"
+            },
+            {
+                "title": "Monarch butterfly optimization",
+                "url": "https://doi.org/10.1007/s00521-015-1923-y"
+            }
+        ]
+    },
+    "Camel": {
+        "facts": [
+            "Camels are known as the 'ships of the desert' due to their ability to travel long distances across sand.",
+            "They can go for several days without water, thanks to their ability to store fat in their humps.",
+            "There are three species of camels: the dromedary (one hump), the Bactrian (two humps), and the wild Bactrian.",
+            "Camels have long, curved eyelashes and thick eyebrows to protect their eyes from sand and sun.",
+            "Their broad, padded feet help them walk on sand without sinking.",
+            "Camels can close their nostrils during sandstorms to keep sand out."
+        ],
+        "links": [
+            {
+                "title": "Discover 13 Fun Facts About Camels",
+                "url": "https://spana.org/blog/13-fun-facts-about-camels/"
+            },
+            {
+                "title": "Camel Fact Sheet | Blog | Nature",
+                "url": "https://www.pbs.org/wnet/nature/blog/camel-fact-sheet/"
+            },
+            {
+                "title": "What is a Camel? | Camel Facts for Kids",
+                "url": "https://www.twinkl.com.vn/teaching-wiki/camel"
+            },
+            {
+                "title": "A review of camel brucellosis",
+                "url": "https://doi.org/10.1016/S0167-5877(02)00055-7"
+            },
+            {
+                "title": "Did you know this about a camel toe?",
+                "url": "https://www.cameltracks.com/did-you-know-this-about-camels/"
+            },
+            {
+                "title": "Did Camels Exist in Biblical Times?",
+                "url": "https://www.biblicalarchaeology.org/daily/ancient-cultures/ancient-near-eastern-world/did-camels-exist-in-biblical-times/"
+            }
+        ]
+    },
+    "Cattle": {
+        "facts": [
+            "Cattle are domesticated bovines used for their meat, milk, and hides.",
+            "There are two main species: Bos taurus (domestic cattle) and Bos indicus (zebu).",
+            "Cattle have been domesticated for over 10,000 years.",
+            "They have a complex digestive system with four stomach compartments to break down tough plant materials.",
+            "Cattle communicate with each other using vocalizations, body language, and scent.",
+            "The average lifespan of a domesticated cattle is 15 to 20 years."
+        ],
+        "links": [
+            {
+                "title": "10 Facts about Dairy Cattle",
+                "url": "https://www.four-paws.org/campaigns-topics/topics/farm-animals/10-facts-about-cattle"
+            },
+            {
+                "title": "Cattle | Description, Species, Terminology, Breeds, & Facts",
+                "url": "https://www.britannica.com/animal/cattle-livestock"
+            },
+            {
+                "title": "Domestication of cattle: Two or three events? - PMC",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6304694/"
+            },
+            {
+                "title": "Genetics and African cattle domestication",
+                "url": "https://doi.org/10.1007/s10437-013-9131-6"
+            },
+            {
+                "title": "The Domestication of Cattle",
+                "url": "https://ridgewayresearch.co.uk/domestication-cattle/"
+            },
+            {
+                "title": "Cattle and Land Use",
+                "url": "https://clear.ucdavis.edu/explainers/cattle-and-land-use-differences-between-arable-land-and-marginal-land-and-how-cattle-use"
+            }
+        ]
+    },
+    "Chicken": {
+        "facts": [
+            "Chickens are domesticated birds raised for their eggs and meat.",
+            "There are more chickens in the world than any other bird species.",
+            "Chickens have excellent color vision and can see in full color.",
+            "They communicate using a range of vocalizations, including clucks, crows, and cackles.",
+            "Chickens have a unique social structure known as a pecking order.",
+            "They can remember and recognize up to 100 different faces of other chickens."
+        ],
+        "links": [
+            {
+                "title": "10 fun facts about chickens",
+                "url": "https://spca.bc.ca/news/fun-facts-about-chickens/"
+            },
+            {
+                "title": "Quick and Easy Chicken Noodle Soup Recipe",
+                "url": "https://www.allrecipes.com/recipe/26460/quick-and-easy-chicken-noodle-soup/"
+            },
+            {
+                "title": "J.Geco - Chicken Song",
+                "url": "https://www.youtube.com/watch?v=msSc7Mv0QHY"
+            },
+            {
+                "title": "Chicken facts: funny to thought-provoking",
+                "url": "https://www.worldanimalprotection.org/latest/blogs/11-facts-about-chickens/"
+            },
+            {
+                "title": "Which came first, the chicken or the egg?",
+                "url": "https://www.sciencefocus.com/nature/which-came-first-the-chicken-or-the-egg"
+            },
+            {
+                "title": "Complications of Chicken-pox",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1953433/"
+            }
+        ]
+    },
+    "Crab": {
+        "facts": [
+            "Crabs have a hard exoskeleton that they must molt as they grow.",
+            "There are over 6,800 species of crabs, found in oceans, freshwater, and on land.",
+            "Crabs use their pincers for feeding, fighting, and communication.",
+            "The largest species of crab is the Japanese spider crab, with a leg span of up to 12 feet.",
+            "Crabs can walk in all directions, but they typically move sideways.",
+            "Some crabs can regenerate lost limbs over time."
+        ],
+        "links": [
+            {
+                "title": "Learn Amazing Crab Facts",
+                "url": "https://www.originaloysterhouse.com/crab-fact/"
+            },
+            {
+                "title": "Noisestorm - Crab Rave [Monstercat Release]",
+                "url": "https://www.youtube.com/watch?v=LDU_Txk06tM"
+            },
+            {
+                "title": "11 Super Cool Facts About Crabs",
+                "url": "https://awesomeocean.com/news/super-cool-facts-crabs/"
+            },
+            {
+                "title": "Structure and mechanical properties of crab exoskeletons",
+                "url": "https://doi.org/10.1016/j.actbio.2007.12.010"
+            },
+            {
+                "title": "13 Spots To Get The Best Chilli Crab In Singapore",
+                "url": "https://www.timeout.com/singapore/restaurants/best-chilli-crab-singapore"
+            },
+            {
+                "title": "Singaporean Chili Crab Recipe",
+                "url": "https://www.seriouseats.com/singaporean-singapore-chili-crab-recipe"
+            }
+        ]
+    },
+    "Crocodile": {
+        "facts": [
+            "Crocodiles have existed for over 200 million years.",
+            "They have the strongest bite of any animal, with a force of over 3,700 pounds per square inch.",
+            "Crocodiles can go for months without eating.",
+            "They can stay underwater for up to an hour.",
+            "Crocodiles have a highly developed sense of hearing.",
+            "They have salt glands in their tongues to survive in salty environments."
+        ],
+        "links": [
+            {
+                "title": "Crocodile | Habitat, Species, Diet, & Facts",
+                "url": "https://www.britannica.com/animal/crocodile-order"
+            },
+            {
+                "title": "Fun Facts About Crocodiles | Test Your Knowledge",
+                "url": "https://www.worldanimalprotection.org.au/education/animal-facts/crocodiles/"
+            },
+            {
+                "title": "Crocodile | One Piece Wiki - Fandom",
+                "url": "https://onepiece.fandom.com/wiki/Crocodile"
+            },
+            {
+                "title": "Population biology of the American crocodile",
+                "url": "https://www.jstor.org/stable/1564310"
+            },
+            {
+                "title": "Crocodile Lifespan and Behavior Overview - SuchScience",
+                "url": "https://suchscience.net/how-long-do-crocodiles-live/"
+            },
+            {
+                "title": "120-year-old Cassius is pushing limit of crocodile longevity",
+                "url": "https://www.livescience.com/animals/alligators-crocodiles/120-year-old-cassius-is-pushing-limit-of-crocodile-longevity-and-hes-got-years-to-come-expert-say"
+            }
+        ]
+    },
+    "Duck": {
+        "facts": [
+            "Ducks are omnivores and eat a variety of foods.",
+            "They have waterproof feathers due to an oily substance produced by their uropygial gland.",
+            "There are over 120 species of ducks.",
+            "Ducks have a wide range of vocalizations.",
+            "Many duck species are migratory.",
+            "Ducks can see in nearly all directions at once."
+        ],
+        "links": [
+            {
+                "title": "Duck production: an overview",
+                "url": "https://doi.org/10.1007/978-981-16-6100-6_1"
+            },
+            {
+                "title": "Peking Duck, An Easy Home Version (北京烤鸭)",
+                "url": "https://redhousespice.com/peking-duck/"
+            },
+            {
+                "title": "Donald Duck | Disney Wiki | Fandom",
+                "url": "https://disney.fandom.com/wiki/Donald_Duck"
+            },
+            {
+                "title": "Ducky Momo | Phineas and Ferb Wiki - Fandom",
+                "url": "https://phineasandferb.fandom.com/wiki/Ducky_Momo"
+            },
+            {
+                "title": "10 Facts About Ducks That Might Surprise You",
+                "url": "https://www.peta.org/features/facts-about-ducks/"
+            },
+            {
+                "title": "Duck Facts for Kids - Twinkl Homework Help",
+                "url": "https://www.twinkl.com.vn/homework-help/science-homework-help/birds-facts-for-kids/duck-facts-for-kids"
+            }
+        ]
+    },
+    "Frog": {
+        "facts": [
+            "Frogs have permeable skin that absorbs water and oxygen.",
+            "They are known for their powerful jumping ability.",
+            "Frogs can lay thousands of eggs at once, which hatch into tadpoles.",
+            "Many frog species have toxic skin secretions.",
+            "Frogs use their large, bulging eyes to see in nearly all directions.",
+            "The world's smallest frog, Paedophryne amauensis, measures just 7.7 millimeters in length."
+        ],
+        "links": [
+            {
+                "title": "Frog",
+                "url": "https://en.wikipedia.org/wiki/Frog"
+            },
+            {
+                "title": "What is a Frog? | Frog Facts for Kids",
+                "url": "https://www.twinkl.com.vn/teaching-wiki/frog"
+            },
+            {
+                "title": "Biochemistry of frog ribonucleases",
+                "url": "https://doi.org/10.1007/s000180050206"
+            },
+            {
+                "title": "The Frog Life Cycle for Kids",
+                "url": "https://www.natgeokids.com/uk/discover/science/nature/frog-life-cycle/"
+            },
+            {
+                "title": "Frog Life Cycle | Teaching Wiki",
+                "url": "https://www.twinkl.com.vn/teaching-wiki/frog-life-cycle"
+            },
+            {
+                "title": "10 Best Frog Leg Porridge In Singapore",
+                "url": "https://eatbook.sg/best-frog-leg-porridge-singapore/"
+            }
+        ]
+    },
+    "Hippopotamus": {
+        "facts": [
+            "Hippos are excellent swimmers and can hold their breath underwater for up to five minutes.",
+            "They spend most of their day in the water to stay cool.",
+            "Hippos are highly territorial in water.",
+            "They have large, sharp canine teeth that can grow up to 20 inches long.",
+            "Hippos are considered one of the most dangerous animals in Africa.",
+            "They communicate using a variety of vocalizations, including grunts and wheezes."
+        ],
+        "links": [
+            {
+                "title": "10 Hippo Facts!",
+                "url": "https://www.natgeokids.com/uk/discover/animals/general-animals/ten-hippo-facts/"
+            },
+            {
+                "title": "10 Interesting Facts to Know About Hippos",
+                "url": "https://www.worldanimalprotection.us/latest/blogs/10-interesting-facts-know-about-hippos/"
+            },
+            {
+                "title": "Stable isotope ecology of the common hippopotamus",
+                "url": "https://zslpublications.onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-7998.2008.00450.x"
+            },
+            {
+                "title": "Hippopotamus facts, diet, and threats to survival",
+                "url": "https://www.ifaw.org/international/animals/hippopotamuses"
+            },
+            {
+                "title": "Are hippos strong animals?",
+                "url": "https://www.quora.com/Are-hippos-strong-animals"
+            },
+            {
+                "title": "Hippo Wisdom: Don't Forget Your Inner Strength",
+                "url": "https://www.infinitefamily.org/2020/hippo-wisdom-dont-forget-your-inner-strength/"
+            }
+        ]
+    },
+    "Kangaroo": {
+        "facts": [
+            "Kangaroos are marsupials with young that develop in the mother's pouch.",
+            "They are the only large animals that use hopping as their primary means of movement.",
+            "A kangaroo's powerful hind legs allow it to cover up to 25 feet in a single bound.",
+            "Kangaroos can reach speeds of up to 35 miles per hour.",
+            "Male kangaroos box each other to establish dominance.",
+            "There are four species of kangaroos, with the red kangaroo being the largest."
+        ],
+        "links": [
+            {
+                "title": "Kangaroo facts and photos",
+                "url": "https://kids.nationalgeographic.com/animals/mammals/facts/kangaroo"
+            },
+            {
+                "title": "Fun Facts about Kangaroos",
+                "url": "https://www.australia.com/en/things-to-do/wildlife/kangaroo-interesting-facts.html"
+            },
+            {
+                "title": "Kangaroo Facts!",
+                "url": "https://www.natgeokids.com/ie/discover/animals/general-animals/kangaroo-facts/"
+            },
+            {
+                "title": "Kangaroos Facts & Information",
+                "url": "https://www.bushheritage.org.au/species/kangaroos"
+            },
+            {
+                "title": "11 Kangaroo Facts That Will Amaze You",
+                "url": "https://www.worldanimalprotection.us/latest/blogs/11-kangaroo-facts-that-will-amaze-you/"
+            },
+            {
+                "title": "Kangaroo | Characteristics, Habitat, Diet, & Facts",
+                "url": "https://www.britannica.com/animal/kangaroo"
+            }
+        ]
+    },
+    "Lion": {
+        "facts": [
+            "Lions are known as the 'king of the jungle' due to their majestic appearance and social behavior.",
+            "They live in groups called prides, which are usually led by a dominant male.",
+            "Lions are the only cats that live in social groups.",
+            "They have a powerful roar that can be heard up to 5 miles away.",
+            "Male lions have a distinctive mane, which is unique to each individual.",
+            "Lions are apex predators and primarily hunt large herbivores such as buffalo and zebras."
+        ],
+        "links": [
+            {
+                "title": "Top 10 facts about Lions | WWF",
+                "url": "https://www.wwf.org.uk/learn/fascinating-facts/lions"
+            },
+            {
+                "title": "10 roarsome lion facts!",
+                "url": "https://www.natgeokids.com/uk/discover/animals/general-animals/10-lion-facts/"
+            },
+            {
+                "title": "20 Interesting Facts About Lions - Born Free Foundation",
+                "url": "https://www.bornfree.org.uk/news/20-interesting-lion-facts-for-adults-and-kids-alike/"
+            },
+            {
+                "title": "Fun Facts About Lions • African Lion Information For Kids",
+                "url": "https://www.folly-farm.co.uk/zoo/meet-the-zoo-animals/african-lion/"
+            },
+            {
+                "title": "Lion | Characteristics, Habitat, & Facts",
+                "url": "https://www.britannica.com/animal/lion"
+            },
+            {
+                "title": "Lion",
+                "url": "https://kids.nationalgeographic.com/animals/mammals/facts/lion"
+            }
+        ]
+    },
+    "Pig": {
+        "facts": [
+            "Pigs are highly intelligent animals and are often considered one of the smartest non-primate species.",
+            "They have a highly developed sense of smell, which they use to find food.",
+            "Pigs can learn to navigate mazes and respond to their names.",
+            "They have a unique way of communicating using a variety of grunts and squeals.",
+            "Pigs are omnivores and can eat a wide range of foods, including fruits, vegetables, and meat.",
+            "The domestic pig is descended from wild boars, and there are over 2 billion pigs worldwide."
+        ],
+        "links": [
+            {
+                "title": "10 Facts about Pigs",
+                "url": "https://www.four-paws.org/campaigns-topics/topics/farm-animals/10-amazing-facts-about-pigs"
+            },
+            {
+                "title": "10 fun facts about pigs",
+                "url": "https://spca.bc.ca/news/fun-facts-about-pigs/"
+            },
+            {
+                "title": "10 Facts About Pigs",
+                "url": "https://www.worldanimalprotection.us/latest/blogs/10-facts-about-pigs/"
+            },
+            {
+                "title": "Pig",
+                "url": "https://kids.nationalgeographic.com/animals/mammals/facts/pig"
+            },
+            {
+                "title": "10 Surprising Facts About Pigs",
+                "url": "https://www.thepigsite.com/articles/10-surprising-facts-about-pigs"
+            },
+            {
+                "title": "Pig | Description, Breeds, & Facts",
+                "url": "https://www.britannica.com/animal/pig-mammal-group"
+            }
+        ]
+    },
+    "Rabbit": {
+        "facts": [
+            "Rabbits have large ears that help them detect predators from a distance.",
+            "They are crepuscular, meaning they are most active during dawn and dusk.",
+            "Rabbits have a special digestive system that allows them to re-ingest their own feces to obtain essential nutrients.",
+            "They can jump up to 3 feet high and run at speeds of up to 35 miles per hour.",
+            "Rabbits live in complex burrow systems called warrens.",
+            "There are over 300 breeds of domestic rabbits."
+        ],
+        "links": [
+            {
+                "title": "Facts about rabbits you probably didn't know!",
+                "url": "https://www.bluecross.org.uk/advice/rabbit/wellbeing-and-care/facts-about-rabbits"
+            },
+            {
+                "title": "10 hopping fun rabbit facts!",
+                "url": "https://www.natgeokids.com/uk/discover/animals/general-animals/10-hopping-fun-rabbit-facts/"
+            },
+            {
+                "title": "Facts You Might Not Know About Rabbits",
+                "url": "https://www.medivetgroup.com/pet-care/pet-advice/facts-about-rabbits/"
+            },
+            {
+                "title": "10 Facts about Rabbits",
+                "url": "https://www.four-paws.org/campaigns-topics/topics/companion-animals/10-facts-about-rabbits"
+            },
+            {
+                "title": "Fun Facts About Rabbits",
+                "url": "https://animalwelfaresociety.org/pet-facts-fun/fun-facts-about-rabbits/"
+            },
+            {
+                "title": "Fun Rabbit Facts",
+                "url": "https://rabbit.org/resources/fun/rabbit-facts/"
+            }
+        ]
+    },
+    "Snail": {
+        "facts": [
+            "Snails are mollusks that have a soft, unsegmented body and usually a hard shell.",
+            "They have a specialized organ called a radula, which they use to scrape food particles.",
+            "Some snails can live up to 10 years, depending on the species.",
+            "They produce mucus to help them move and to protect their bodies from rough surfaces.",
+            "Snails have tentacles on their heads that serve as sensory organs.",
+            "Land snails are hermaphrodites, meaning they have both male and female reproductive organs."
+        ],
+        "links": [
+            {
+                "title": "Facts about Snails",
+                "url": "https://snail-world.com/snail-facts/"
+            },
+            {
+                "title": "Snail Facts and Information",
+                "url": "https://snail-world.com/"
+            },
+            {
+                "title": "8 Surprising Snail Facts You Should Know",
+                "url": "https://www.birdsandblooms.com/gardening/backyard-wildlife/snail-facts/"
+            },
+            {
+                "title": "Snail Fun Facts",
+                "url": "https://braganskincare.com/snail-fun-facts/"
+            },
+            {
+                "title": "Snail",
+                "url": "https://en.wikipedia.org/wiki/Snail"
+            },
+            {
+                "title": "Snail Facts",
+                "url": "https://facts.net/snail-facts/"
+            }
+        ]
+    },
+    "Snake": {
+        "facts": [
+            "Snakes are legless reptiles with elongated bodies and are found in a variety of habitats.",
+            "They use their tongue to 'smell' their environment by picking up scent particles.",
+            "Most snakes are non-venomous and kill their prey by constriction.",
+            "Some snake species are highly venomous, with toxins that can paralyze or kill their prey.",
+            "Snakes shed their skin regularly to allow for growth and remove parasites.",
+            "There are over 3,000 species of snakes, with varying sizes and adaptations."
+        ],
+        "links": [
+            {
+                "title": "7 cool facts about snakes",
+                "url": "https://www.worldanimalprotection.org.au/news/7-cool-facts-about-snakes/"
+            },
+            {
+                "title": "Snakes, facts and information",
+                "url": "https://www.nationalgeographic.com/animals/reptiles/facts/snakes-1"
+            },
+            {
+                "title": "What is a Snake? - Snake Facts for Kids",
+                "url": "https://www.twinkl.com.vn/teaching-wiki/snake"
+            },
+            {
+                "title": "Snake | Description, Facts, & Types",
+                "url": "https://www.britannica.com/animal/snake"
+            },
+            {
+                "title": "7 fascinating facts about snakes for World Snake Day",
+                "url": "https://www.worldanimalprotection.org.uk/latest/blogs/world-snake-day/"
+            },
+            {
+                "title": "Interesting Snake Facts",
+                "url": "https://www.discoverdeadly.com.au/interesting-snake-facts"
+            }
+        ]
+    },
+    "Turtle": {
+        "facts": [
+            "Turtles have a hard shell called a carapace that protects them from predators.",
+            "They are one of the oldest reptile groups, dating back over 200 million years.",
+            "Turtles can live both in water and on land, with species adapted to different environments.",
+            "Some turtles can hold their breath for several hours while underwater.",
+            "They have a slow metabolism, which allows them to survive on limited food resources.",
+            "The largest turtle species is the leatherback sea turtle, which can weigh over 2,000 pounds."
+        ],
+        "links": [
+            {
+                "title": "10 totally awesome facts about turtles!",
+                "url": "https://www.natgeokids.com/uk/discover/animals/sea-life/turtle-facts/"
+            },
+            {
+                "title": "10 Tremendous Turtle Facts - NOAA Fisheries",
+                "url": "https://www.fisheries.noaa.gov/feature-story/10-tremendous-turtle-facts"
+            },
+            {
+                "title": "Top 10 facts about marine turtles | WWF",
+                "url": "https://www.wwf.org.uk/learn/fascinating-facts/marine-turtles"
+            },
+            {
+                "title": "Turtle | Species, Classification, & Facts",
+                "url": "https://www.britannica.com/animal/turtle-reptile"
+            },
+            {
+                "title": "Turtle facts: 9 amazing things you should know",
+                "url": "https://www.greenpeace.org.uk/news/amazing-turtle-facts/"
+            },
+            {
+                "title": "Sea Turtle Facts",
+                "url": "https://www.seeturtles.org/sea-turtle-facts"
+            }
+        ]
+    },
+    "Sheep": {
+        "facts": [
+            "Sheep have excellent memories and can recognize up to 50 individual faces of other sheep.",
+            "They are social animals that prefer to live in flocks and have a strong flocking instinct.",
+            "Sheep have been domesticated for thousands of years, primarily for their wool, meat, and milk.",
+            "They have a unique digestive system with a four-chambered stomach that helps them break down tough plant materials.",
+            "Sheep are ruminants, meaning they chew cud, a process that allows them to digest their food more thoroughly.",
+            "The wool of sheep can be used to make a variety of textiles and is highly valued in the textile industry."
+        ],
+        "links": [
+            {
+                "title": "10 fun facts about sheep",
+                "url": "https://spca.bc.ca/news/fun-facts-about-sheep/"
+            },
+            {
+                "title": "10 Facts about Sheep",
+                "url": "https://www.four-paws.org/campaigns-topics/topics/farm-animals/10-facts-about-sheep"
+            },
+            {
+                "title": "Sheep | Characteristics, Breeds, & Facts",
+                "url": "https://www.britannica.com/animal/domesticated-sheep"
+            },
+            {
+                "title": "10 Jaw-Dropping Facts About Sheep",
+                "url": "https://www.durvet.com/10-head-turning-facts-about-sheep/"
+            },
+            {
+                "title": "12 Fun Facts on Sheep You Might Not Know",
+                "url": "https://www.devonduvets.com/news/post/twelve-things-you-might-not-know-about-sheep"
+            },
+            {
+                "title": "Ag Facts: Sheep and Wool",
+                "url": "https://oklahoma.agclassroom.org/resources_facts/agfacts_sheep/"
+            }
+        ]
+    },
+    "Mouse": {
+        "facts": [
+            "Mice are highly adaptable and can live in a variety of environments, including urban areas and rural fields.",
+            "They have an acute sense of smell, which helps them find food and navigate their surroundings.",
+            "Mice are nocturnal creatures, meaning they are most active during the night.",
+            "They have sharp incisors that grow continuously throughout their lives.",
+            "Mice communicate using high-frequency vocalizations that are often inaudible to humans.",
+            "In scientific research, mice are commonly used as model organisms due to their genetic similarities to humans."
+        ],
+        "links": [
+            {
+                "title": "Fascinating Mouse Facts You Did Not Know - Mice Facts",
+                "url": "https://www.pestworld.org/news-hub/pest-articles/fascinating-facts-you-never-knew-about-mice/"
+            },
+            {
+                "title": "15 Little Known Facts about Mice",
+                "url": "https://www.excelpestservices.com/15-little-known-facts-about-mice/"
+            },
+            {
+                "title": "Mouse | Description, Habitat, Diet, Classification, & Facts",
+                "url": "https://www.britannica.com/animal/mouse-rodent"
+            },
+            {
+                "title": "Mice Information for Kids: House Mouse Facts for Kids",
+                "url": "https://www.pestworldforkids.org/pest-guide/mice/"
+            },
+            {
+                "title": "10 Interesting Facts About Mice You May Not Know",
+                "url": "https://www.earthkind.com/blog/5-facts-you-didnt-know-about-mice/"
+            },
+            {
+                "title": "Facts About Mice",
+                "url": "https://www.havahart.com/mouse-facts"
+            }
+        ]
+    },
+    "Fox": {
+        "facts": [
+            "Foxes are highly adaptable animals and can thrive in diverse habitats, including forests, grasslands, and urban areas.",
+            "They are known for their cunning and clever behavior, often using their intelligence to find food and evade predators.",
+            "Foxes have a varied diet and are omnivorous, eating fruits, insects, small mammals, and birds.",
+            "Their bushy tails, or 'brushes,' are used for balance and communication.",
+            "Foxes have excellent hearing and can detect the sounds of small animals from a distance.",
+            "The red fox is the most common and widely distributed species of fox, known for its striking orange-red fur."
+        ],
+        "links": [
+            {
+                "title": "Fox | Species, Habitat, Behavior, & Facts",
+                "url": "https://www.britannica.com/animal/fox-mammal"
+            },
+            {
+                "title": "10 facts about foxes that may surprise you - WildThings Food",
+                "url": "https://www.wildthingsfood.co.uk/news/10-facts-about-foxes-that-may-surprise-you/"
+            },
+            {
+                "title": "Red Fox",
+                "url": "https://kids.nationalgeographic.com/animals/mammals/facts/red-fox"
+            },
+            {
+                "title": "9 Fox Facts You May Not Know",
+                "url": "https://www.thebiggreenk.com/blog/9-fox-facts-you-may-not-know/"
+            },
+            {
+                "title": "25 Amazing Facts About Foxes",
+                "url": "https://www.countryandhome.co.uk/blog/country-gifts/25-amazing-facts-about-foxes/"
+            },
+            {
+                "title": "Facts About Foxes | Fox Facts",
+                "url": "https://www.havahart.com/fox-facts"
+            }
+        ]
+    }
 }

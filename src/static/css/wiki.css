@@ -63,6 +63,46 @@ header.tooltipOff h1:hover .tooltip {
     align-items: center;
     gap: 15px;
     flex: 1 1 0;
+    position: relative;
+}
+
+#infoRefresher {
+    position: absolute;
+    top: -10px;
+    right: 50px;
+    background: linear-gradient(0deg, transparent, rgb(51, 50, 51));
+    border-radius: 30%;
+
+    background-position: center;
+    transition: background 0.8s;
+}
+
+#infoRefresher:hover {
+    cursor: pointer;
+}
+
+#infoRefresher:active {
+    background: linear-gradient(0deg, transparent, rgb(61, 60, 61));
+    background-size: 100%;
+    transition: background 0s;
+}
+
+#infoRefresher svg {
+    width: 1.5em;
+    height: auto;
+    color: var(--generalTxtColor);
+    stroke: var(--peachColor);
+    stroke-width: 0.5px;
+}
+
+#infoRefresher.disabled svg {
+    color: rgb(151, 150, 151);
+    stroke: rgb(151, 150, 151);
+}
+
+#infoRefresher:hover svg {
+    transition: transform 0.7s ease-in-out;
+    transform: rotate(360deg);
 }
 
 #info::-webkit-scrollbar {
@@ -183,6 +223,93 @@ header.tooltipOff h1:hover .tooltip {
     color: var(--peachColor);
 }
 
+#sortPicker {
+    color: var(--generalTxtColor);
+    position: absolute;
+    bottom: -3px;
+    right: 35px;
+    width: 6.5em;
+    height: 3.5em;
+    padding-top: 14px;
+    border: 0px solid transparent;
+    border-radius: 0.325em;
+    box-shadow: 4px 8px 4px 0px rgb(0 0 0 / 50%);
+    border-bottom: 3px solid var(--generalTxtColor);
+    background: rgb(51, 50, 51);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+
+#sortPicker:hover {
+    transform: translateY(-0.2rem);
+}
+
+#sortPicker:active {
+    transform: translateY(0rem);
+    background: linear-gradient(0deg, transparent, rgb(51, 50, 51));
+    background-size: 100%;
+}
+
+#sortPicker span:first-of-type {
+    position: absolute;
+    width: 93%;
+    color: rgb(201, 202, 201);
+    border-bottom: 1px solid var(--generalTxtColor);
+    top: 3px;
+    left: 3px;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+#sortPicker span:last-child {
+    background: linear-gradient(
+        to right,
+        var(--generalTxtColor),
+        var(--peachColor)
+    );
+    background-clip: text;
+    color: transparent;
+    transition: all 0.1s linear;
+}
+
+#sortPicker:hover span:last-child {
+    background: linear-gradient(
+        to right,
+        var(--peachColor),
+        var(--generalTxtColor)
+    );
+    background-clip: text;
+}
+
+#sortPicker.sortNames span:last-child {
+    background: linear-gradient(
+        to right,
+        var(--peachColor),
+        var(--generalTxtColor)
+    );
+    background-clip: text;
+}
+
+#sortPicker.sortNames:hover span:last-child {
+    background: linear-gradient(
+        to right,
+        var(--generalTxtColor),
+        var(--peachColor)
+    );
+    background-clip: text;
+}
+
+@media (max-width: 1050px) {
+    #infoRefresher {
+        right: 35px;
+    }
+
+    #sortPicker {
+        right: 25px;
+    }
+}
+
 @media (max-width: 750px) {
     .mainHolders form {
         flex-direction: column;
@@ -205,6 +332,12 @@ header.tooltipOff h1:hover .tooltip {
         width: 40%;
         font-size: 10px;
     }
+
+    #sortPicker {
+        top: -60px;
+        right: 70px;
+        bottom: 0;
+    }
 }
 
 @media (max-width: 550px) {
@@ -219,6 +352,11 @@ header.tooltipOff h1:hover .tooltip {
     header .tooltip {
         top: 80px;
         left: 25px;
+    }
+
+    #sortPicker {
+        top: -75px;
+        right: 5px;
     }
 }
 
