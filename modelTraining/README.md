@@ -1,10 +1,11 @@
 # YOLO Model Training
 
 Datasets:
-
--   Source: [Open Images Dataset V7](https://storage.googleapis.com/openimages/web/index.html).
+-   Source: [Open Images Dataset V7](https://storage.googleapis.com/openimages/web/index.html) and [Animals Detection Images Dataset](https://www.kaggle.com/datasets/antoreepjana/animals-detection-images-dataset).
 -   Filtered: [Full dataset for my YOLO project](https://kaggle.com/datasets/276603f6effbe666aef9aa0c1df328ebed65a67af6de779faa4c312d199870a8).
--   The filtered dataset contain both the dataset for YOLOv4 and YOLOv8 model, which the first is a "mini" version of the latter.
+-   The filtered dataset contain both the dataset for YOLOv4 and YOLOv8 model
+-   The dataset for YOLOv4 is a subset of [Animals Detection Images Dataset] as our YOLOv4 model label annotation is not in YOLO format.
+-   The dataset for YOLOv8 is from [Open Images Dataset V7]
 
 ## [Ultralytics' YOLOv8](https://docs.ultralytics.com/models/yolov8/)
 
