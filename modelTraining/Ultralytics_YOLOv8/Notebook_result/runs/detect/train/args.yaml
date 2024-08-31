@@ -1,7 +1,7 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: /kaggle/input/22-animal-ggv7-config/dataset.yaml
+data: /kaggle/input/yolov8-train-val-config/YOLOv8_for_Train_Val.yml
 epochs: 200
 time: null
 patience: 100
