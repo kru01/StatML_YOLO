@@ -1,76 +1,40 @@
 {
-    "Bull": {
+    "Bear": {
         "facts": [
-            "Bulls are adult male cattle and are known for their strength and aggression.",
-            "They can weigh between 1,000 and 2,000 pounds, depending on the breed.",
-            "Bulls have been used in various cultures for centuries in religious rituals and agriculture.",
-            "Their horns can grow up to 6 feet in length, depending on the breed.",
-            "Bulls are typically more aggressive than cows and can become dangerous if provoked.",
-            "In many countries, bullfighting is a traditional sport, though it is controversial and banned in some areas."
+            "Bears are mammals that belong to the family Ursidae, and there are eight species of bears in the world.",
+            "Bears are found on all continents except Antarctica and Australia.",
+            "The polar bear is the largest species of bear, while the sun bear is the smallest.",
+            "Bears have an excellent sense of smell, even better than that of dogs, which helps them locate food from miles away.",
+            "Most bears are omnivores, eating both plants and animals, although their diet varies greatly depending on the species and season.",
+            "Bears are known to hibernate during winter, a state in which they drastically reduce their metabolism to survive long periods without food."
         ],
         "links": [
             {
-                "title": "Bulls | The Humane Society of the United States",
-                "url": "https://www.humanesociety.org/animals/bulls"
+                "title": "Bear Facts | National Wildlife Federation",
+                "url": "https://www.nwf.org/Educational-Resources/Wildlife-Guide/Mammals/Bears"
             },
             {
-                "title": "17 Facts About Bull",
-                "url": "https://facts.net/nature/animals/17-facts-about-bull/"
+                "title": "Fun Facts About Bears | Smithsonian's National Zoo",
+                "url": "https://nationalzoo.si.edu/animals/news/fun-facts-about-bears"
             },
             {
-                "title": "Evaluation of fertility and infertility in natural service bulls",
-                "url": "https://doi.org/10.1016/j.tvjl.2003.10.017"
+                "title": "All About Bears | American Bear Association",
+                "url": "https://www.americanbear.org/all-about-bears/"
             },
             {
-                "title": "Fun Facts About Cows And Bulls",
-                "url": "https://www.worldanimalprotection.org.au/education/animal-facts/cows/"
+                "title": "10 Bear Species – Types, Characteristics & More",
+                "url": "https://animalvivid.com/types-of-bears-species/"
             },
             {
-                "title": "Bullfighting in One Minute",
-                "url": "https://www.peta.org/videos/bullfighting-one-minute/"
+                "title": "Why Do Bears Hibernate? | U.S. National Park Service",
+                "url": "https://www.nps.gov/subjects/bears/why-do-bears-hibernate.htm"
             },
             {
-                "title": "Mythology of The Bull",
-                "url": "https://cedarhurst.org/mythology-of-the-bull/"
+                "title": "Bear Species - The Eight Types of Bears",
+                "url": "https://www.discoverwildlife.com/animal-facts/mammals/facts-about-bears/"
             }
         ]
-    },
-    "Butterfly": {
-        "facts": [
-            "Butterflies have four wings covered in tiny, colorful scales.",
-            "They go through four stages of metamorphosis: egg, larva (caterpillar), pupa (chrysalis), and adult.",
-            "Some butterfly species migrate thousands of miles, like the monarch butterfly.",
-            "Butterflies have taste sensors on their feet to help them find food.",
-            "The average lifespan of a butterfly ranges from a few weeks to several months, depending on the species.",
-            "Butterflies play a crucial role in pollination, helping many plants reproduce."
-        ],
-        "links": [
-            {
-                "title": "19 Fascinating Butterfly Facts",
-                "url": "https://stories.sandiegozoo.org/2015/03/15/19-fascinating-butterfly-facts/"
-            },
-            {
-                "title": "Butterfly Life Cycle",
-                "url": "https://ansp.org/exhibits/online-exhibits/butterflies/lifecycle/"
-            },
-            {
-                "title": "Butterfly facts",
-                "url": "https://www.londonzoo.org/whats-here/habitats/butterfly-paradise/butterfly-facts"
-            },
-            {
-                "title": "Monarch Butterfly Migration and Overwintering",
-                "url": "https://www.fs.usda.gov/wildflowers/pollinators/Monarch_Butterfly/migration/index.shtml"
-            },
-            {
-                "title": "Do butterflies taste with their feet? - RSPB England",
-                "url": "https://community.rspb.org.uk/ourwork/b/rspb-england/posts/do-butterflies-taste-with-their-feet"
-            },
-            {
-                "title": "Monarch butterfly optimization",
-                "url": "https://doi.org/10.1007/s00521-015-1923-y"
-            }
-        ]
-    },
+    }, 
     "Camel": {
         "facts": [
             "Camels are known as the 'ships of the desert' due to their ability to travel long distances across sand.",
@@ -107,6 +71,42 @@
             }
         ]
     },
+    "Cat": {
+        "facts": [
+            "Cats are small, carnivorous mammals that are one of the most popular pets in the world.",
+            "Domestic cats are believed to have been domesticated around 9,000 years ago in the Near East.",
+            "Cats have excellent night vision and can see at one-sixth the light level required for human vision.",
+            "They have a specialized collarbone that allows them to always land on their feet after a fall, a phenomenon known as the 'righting reflex.'",
+            "A cat's purring is often associated with contentment, but cats also purr when they are frightened or in pain.",
+            "There are over 70 recognized breeds of domestic cats, each with unique characteristics and personalities."
+        ],
+        "links": [
+            {
+                "title": "10 Fun Facts About Cats | ASPCA",
+                "url": "https://www.aspca.org/news/10-fun-facts-about-cats"
+            },
+            {
+                "title": "Cat Facts | National Geographic",
+                "url": "https://www.nationalgeographic.com/animals/mammals/facts/domestic-cat"
+            },
+            {
+                "title": "All About Cats | International Cat Care",
+                "url": "https://icatcare.org/advice/all-about-cats/"
+            },
+            {
+                "title": "How Do Cats Always Land on Their Feet? | Scientific American",
+                "url": "https://www.scientificamerican.com/article/how-do-cats-always-land-o/"
+            },
+            {
+                "title": "Why Do Cats Purr? | BBC Science Focus Magazine",
+                "url": "https://www.sciencefocus.com/nature/why-do-cats-purr/"
+            },
+            {
+                "title": "Cat Breeds | The International Cat Association (TICA)",
+                "url": "https://tica.org/breeds/browse-all-breeds"
+            }
+        ]
+    },    
     "Cattle": {
         "facts": [
             "Cattle are domesticated bovines used for their meat, milk, and hides.",
@@ -251,6 +251,42 @@
             }
         ]
     },
+    "Dog": {
+        "facts": [
+            "Dogs are domesticated mammals and are considered to be man's best friend due to their loyalty and companionship.",
+            "Dogs were domesticated from wolves over 15,000 years ago, making them one of the first animals to be domesticated by humans.",
+            "There are over 340 recognized dog breeds worldwide, each bred for specific traits, including size, temperament, and skills.",
+            "Dogs have an acute sense of smell, which is 10,000 to 100,000 times more sensitive than that of humans.",
+            "They are highly social animals and communicate through a variety of vocalizations, body language, and facial expressions.",
+            "Dogs are known for their diverse roles in human society, including working as therapy dogs, service animals, police dogs, and in search and rescue missions."
+        ],
+        "links": [
+            {
+                "title": "Dog Facts | American Kennel Club",
+                "url": "https://www.akc.org/expert-advice/lifestyle/6-fun-facts-about-dogs/"
+            },
+            {
+                "title": "10 Fun Facts About Dogs | ASPCA",
+                "url": "https://www.aspca.org/news/10-fun-facts-about-dogs"
+            },
+            {
+                "title": "The History of Dogs | National Geographic",
+                "url": "https://www.nationalgeographic.com/animals/mammals/facts/dog"
+            },
+            {
+                "title": "Dog Breeds | The American Kennel Club",
+                "url": "https://www.akc.org/dog-breeds/"
+            },
+            {
+                "title": "Why Are Dogs' Noses So Sensitive? | BBC Science Focus Magazine",
+                "url": "https://www.sciencefocus.com/nature/why-are-dogs-noses-so-sensitive/"
+            },
+            {
+                "title": "The Science of Dog Communication | Psychology Today",
+                "url": "https://www.psychologytoday.com/us/blog/canine-corner/201805/the-science-dog-communication"
+            }
+        ]
+    },
     "Duck": {
         "facts": [
             "Ducks are omnivores and eat a variety of foods.",
@@ -287,6 +323,78 @@
             }
         ]
     },
+    "Elephant": {
+        "facts": [
+            "Elephants are the largest land animals on Earth, with African elephants being larger than their Asian counterparts.",
+            "Elephants have complex social structures and are known for their strong family bonds and matriarchal societies.",
+            "Their trunks, which are a combination of the nose and upper lip, have over 40,000 muscles and are used for breathing, smelling, touching, grasping, and producing sound.",
+            "Elephants have a highly developed brain, known for their intelligence, memory, and ability to show emotions like joy, grief, and empathy.",
+            "They can communicate over long distances using low-frequency sounds, known as infrasound, which can travel through the ground.",
+            "Elephants are herbivores, consuming up to 300 pounds of vegetation daily, including grasses, fruits, and bark."
+        ],
+        "links": [
+            {
+                "title": "10 Fun Facts About Elephants | World Wildlife Fund",
+                "url": "https://www.worldwildlife.org/stories/10-fun-facts-about-elephants"
+            },
+            {
+                "title": "Elephant Facts | National Geographic",
+                "url": "https://www.nationalgeographic.com/animals/mammals/facts/elephants"
+            },
+            {
+                "title": "Elephants: Earth's Largest Land Animals | Live Science",
+                "url": "https://www.livescience.com/27320-elephants.html"
+            },
+            {
+                "title": "How Do Elephants Communicate? | Smithsonian Magazine",
+                "url": "https://www.smithsonianmag.com/science-nature/elephants-communicate-180960027/"
+            },
+            {
+                "title": "Elephant Social Structure and Behavior | Save the Elephants",
+                "url": "https://www.savetheelephants.org/about-elephants-2-3-2/elephant-social-structure-and-behaviour/"
+            },
+            {
+                "title": "Elephant Diet and Digestion | African Wildlife Foundation",
+                "url": "https://www.awf.org/wildlife-conservation/elephant"
+            }
+        ]
+    },    
+    "Fox": {
+        "facts": [
+            "Foxes are small to medium-sized omnivorous mammals belonging to the family Canidae, which also includes wolves, dogs, and jackals.",
+            "The red fox is the most common and widespread species, found across the Northern Hemisphere, including North America, Europe, and Asia.",
+            "Foxes are known for their cunning and adaptability, thriving in diverse habitats ranging from forests and grasslands to urban environments.",
+            "They have excellent hearing and can detect the sound of small animals digging underground from a great distance.",
+            "Foxes are solitary animals, often hunting alone and using their keen sense of smell and hearing to locate prey.",
+            "A fox’s tail, also known as a 'brush,' serves as a warm cover in cold weather and helps with balance and communication."
+        ],
+        "links": [
+            {
+                "title": "Fox Facts | National Geographic",
+                "url": "https://www.nationalgeographic.com/animals/mammals/facts/red-fox"
+            },
+            {
+                "title": "10 Fascinating Facts About Foxes | BBC Wildlife Magazine",
+                "url": "https://www.discoverwildlife.com/animal-facts/mammals/facts-about-foxes/"
+            },
+            {
+                "title": "The Secret Life of Foxes | BBC Earth",
+                "url": "https://www.bbcearth.com/blog/?article=the-secret-life-of-foxes"
+            },
+            {
+                "title": "Foxes: Habits, Diet & Other Facts | Live Science",
+                "url": "https://www.livescience.com/27191-foxes.html"
+            },
+            {
+                "title": "How Do Foxes Communicate? | Wildlife Online",
+                "url": "https://www.wildlifeonline.me.uk/animals/article/red-fox-communication"
+            },
+            {
+                "title": "Foxes: Natural History & Biology | The Fox Project",
+                "url": "https://foxproject.org.uk/fox-facts/natural-history-and-biology/"
+            }
+        ]
+    },    
     "Frog": {
         "facts": [
             "Frogs have permeable skin that absorbs water and oxygen.",
@@ -683,40 +791,40 @@
             }
         ]
     },
-    "Fox": {
+    "Zebra": {
         "facts": [
-            "Foxes are highly adaptable animals and can thrive in diverse habitats, including forests, grasslands, and urban areas.",
-            "They are known for their cunning and clever behavior, often using their intelligence to find food and evade predators.",
-            "Foxes have a varied diet and are omnivorous, eating fruits, insects, small mammals, and birds.",
-            "Their bushy tails, or 'brushes,' are used for balance and communication.",
-            "Foxes have excellent hearing and can detect the sounds of small animals from a distance.",
-            "The red fox is the most common and widely distributed species of fox, known for its striking orange-red fur."
+            "Zebras are herbivorous mammals known for their distinctive black-and-white striped coats, which are unique to each individual.",
+            "There are three species of zebras: the plains zebra, the Grevy's zebra, and the mountain zebra, each adapted to different environments in Africa.",
+            "The stripes of a zebra may serve various purposes, including camouflage, social bonding, and protection from biting insects.",
+            "Zebras are highly social animals, often found in large herds, and they communicate using vocalizations, facial expressions, and tail movements.",
+            "Zebras have excellent eyesight and hearing, which help them detect predators like lions and hyenas from a distance.",
+            "Despite their horse-like appearance, zebras have never been truly domesticated due to their strong, independent nature and unpredictable behavior."
         ],
         "links": [
             {
-                "title": "Fox | Species, Habitat, Behavior, & Facts",
-                "url": "https://www.britannica.com/animal/fox-mammal"
+                "title": "10 Striking Facts About Zebras | World Wildlife Fund",
+                "url": "https://www.worldwildlife.org/stories/10-striking-facts-about-zebras"
             },
             {
-                "title": "10 facts about foxes that may surprise you - WildThings Food",
-                "url": "https://www.wildthingsfood.co.uk/news/10-facts-about-foxes-that-may-surprise-you/"
+                "title": "Zebra Facts | National Geographic",
+                "url": "https://www.nationalgeographic.com/animals/mammals/facts/zebra"
             },
             {
-                "title": "Red Fox",
-                "url": "https://kids.nationalgeographic.com/animals/mammals/facts/red-fox"
+                "title": "Zebra Stripes: Camouflage or Something Else? | BBC Earth",
+                "url": "https://www.bbcearth.com/blog/?article=why-do-zebras-have-stripes"
             },
             {
-                "title": "9 Fox Facts You May Not Know",
-                "url": "https://www.thebiggreenk.com/blog/9-fox-facts-you-may-not-know/"
+                "title": "How Do Zebras Communicate? | Science Focus",
+                "url": "https://www.sciencefocus.com/nature/how-do-zebras-communicate/"
             },
             {
-                "title": "25 Amazing Facts About Foxes",
-                "url": "https://www.countryandhome.co.uk/blog/country-gifts/25-amazing-facts-about-foxes/"
+                "title": "Zebra Species Guide | African Wildlife Foundation",
+                "url": "https://www.awf.org/wildlife-conservation/zebra"
             },
             {
-                "title": "Facts About Foxes | Fox Facts",
-                "url": "https://www.havahart.com/fox-facts"
+                "title": "Zebras: Habitat, Diet, and More | Live Science",
+                "url": "https://www.livescience.com/27443-zebras.html"
             }
         ]
-    }
+    }    
 }
