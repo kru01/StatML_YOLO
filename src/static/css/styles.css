@@ -54,6 +54,16 @@ header h1 a {
     text-decoration: inherit;
 }
 
+header .tooltip a {
+    color: var(--peachColor);
+    transition: all 0.2s ease;
+}
+
+header .tooltip a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .mainHolders {
     width: 100%;
     align-self: center;

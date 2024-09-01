@@ -22,7 +22,7 @@
                 "url": "https://www.americanbear.org/all-about-bears/"
             },
             {
-                "title": "10 Bear Species – Types, Characteristics & More",
+                "title": "10 Bear Species - Types, Characteristics & More",
                 "url": "https://animalvivid.com/types-of-bears-species/"
             },
             {
@@ -34,7 +34,7 @@
                 "url": "https://www.discoverwildlife.com/animal-facts/mammals/facts-about-bears/"
             }
         ]
-    }, 
+    },
     "Camel": {
         "facts": [
             "Camels are known as the 'ships of the desert' due to their ability to travel long distances across sand.",
@@ -106,7 +106,7 @@
                 "url": "https://tica.org/breeds/browse-all-breeds"
             }
         ]
-    },    
+    },
     "Cattle": {
         "facts": [
             "Cattle are domesticated bovines used for their meat, milk, and hides.",
@@ -302,7 +302,7 @@
                 "url": "https://doi.org/10.1007/978-981-16-6100-6_1"
             },
             {
-                "title": "Peking Duck, An Easy Home Version (北京烤鸭)",
+                "title": "Peking Duck, An Easy Home Version",
                 "url": "https://redhousespice.com/peking-duck/"
             },
             {
@@ -358,43 +358,43 @@
                 "url": "https://www.awf.org/wildlife-conservation/elephant"
             }
         ]
-    },    
+    },
     "Fox": {
         "facts": [
-            "Foxes are small to medium-sized omnivorous mammals belonging to the family Canidae, which also includes wolves, dogs, and jackals.",
-            "The red fox is the most common and widespread species, found across the Northern Hemisphere, including North America, Europe, and Asia.",
-            "Foxes are known for their cunning and adaptability, thriving in diverse habitats ranging from forests and grasslands to urban environments.",
-            "They have excellent hearing and can detect the sound of small animals digging underground from a great distance.",
-            "Foxes are solitary animals, often hunting alone and using their keen sense of smell and hearing to locate prey.",
-            "A fox’s tail, also known as a 'brush,' serves as a warm cover in cold weather and helps with balance and communication."
+            "Foxes are highly adaptable animals and can thrive in diverse habitats, including forests, grasslands, and urban areas.",
+            "They are known for their cunning and clever behavior, often using their intelligence to find food and evade predators.",
+            "Foxes have a varied diet and are omnivorous, eating fruits, insects, small mammals, and birds.",
+            "Their bushy tails, or 'brushes,' are used for balance and communication.",
+            "Foxes have excellent hearing and can detect the sounds of small animals from a distance.",
+            "The red fox is the most common and widely distributed species of fox, known for its striking orange-red fur."
         ],
         "links": [
             {
-                "title": "Fox Facts | National Geographic",
-                "url": "https://www.nationalgeographic.com/animals/mammals/facts/red-fox"
+                "title": "Fox | Species, Habitat, Behavior, & Facts",
+                "url": "https://www.britannica.com/animal/fox-mammal"
             },
             {
-                "title": "10 Fascinating Facts About Foxes | BBC Wildlife Magazine",
-                "url": "https://www.discoverwildlife.com/animal-facts/mammals/facts-about-foxes/"
+                "title": "10 facts about foxes that may surprise you - WildThings Food",
+                "url": "https://www.wildthingsfood.co.uk/news/10-facts-about-foxes-that-may-surprise-you/"
             },
             {
-                "title": "The Secret Life of Foxes | BBC Earth",
-                "url": "https://www.bbcearth.com/blog/?article=the-secret-life-of-foxes"
+                "title": "Red Fox",
+                "url": "https://kids.nationalgeographic.com/animals/mammals/facts/red-fox"
             },
             {
-                "title": "Foxes: Habits, Diet & Other Facts | Live Science",
-                "url": "https://www.livescience.com/27191-foxes.html"
+                "title": "9 Fox Facts You May Not Know",
+                "url": "https://www.thebiggreenk.com/blog/9-fox-facts-you-may-not-know/"
             },
             {
-                "title": "How Do Foxes Communicate? | Wildlife Online",
-                "url": "https://www.wildlifeonline.me.uk/animals/article/red-fox-communication"
+                "title": "25 Amazing Facts About Foxes",
+                "url": "https://www.countryandhome.co.uk/blog/country-gifts/25-amazing-facts-about-foxes/"
             },
             {
-                "title": "Foxes: Natural History & Biology | The Fox Project",
-                "url": "https://foxproject.org.uk/fox-facts/natural-history-and-biology/"
+                "title": "Facts About Foxes | Fox Facts",
+                "url": "https://www.havahart.com/fox-facts"
             }
         ]
-    },    
+    },
     "Frog": {
         "facts": [
             "Frogs have permeable skin that absorbs water and oxygen.",
@@ -526,7 +526,7 @@
                 "url": "https://www.bornfree.org.uk/news/20-interesting-lion-facts-for-adults-and-kids-alike/"
             },
             {
-                "title": "Fun Facts About Lions • African Lion Information For Kids",
+                "title": "Fun Facts About Lions - African Lion Information For Kids",
                 "url": "https://www.folly-farm.co.uk/zoo/meet-the-zoo-animals/african-lion/"
             },
             {
@@ -536,6 +536,42 @@
             {
                 "title": "Lion",
                 "url": "https://kids.nationalgeographic.com/animals/mammals/facts/lion"
+            }
+        ]
+    },
+    "Mouse": {
+        "facts": [
+            "Mice are highly adaptable and can live in a variety of environments, including urban areas and rural fields.",
+            "They have an acute sense of smell, which helps them find food and navigate their surroundings.",
+            "Mice are nocturnal creatures, meaning they are most active during the night.",
+            "They have sharp incisors that grow continuously throughout their lives.",
+            "Mice communicate using high-frequency vocalizations that are often inaudible to humans.",
+            "In scientific research, mice are commonly used as model organisms due to their genetic similarities to humans."
+        ],
+        "links": [
+            {
+                "title": "Fascinating Mouse Facts You Did Not Know - Mice Facts",
+                "url": "https://www.pestworld.org/news-hub/pest-articles/fascinating-facts-you-never-knew-about-mice/"
+            },
+            {
+                "title": "15 Little Known Facts about Mice",
+                "url": "https://www.excelpestservices.com/15-little-known-facts-about-mice/"
+            },
+            {
+                "title": "Mouse | Description, Habitat, Diet, Classification, & Facts",
+                "url": "https://www.britannica.com/animal/mouse-rodent"
+            },
+            {
+                "title": "Mice Information for Kids: House Mouse Facts for Kids",
+                "url": "https://www.pestworldforkids.org/pest-guide/mice/"
+            },
+            {
+                "title": "10 Interesting Facts About Mice You May Not Know",
+                "url": "https://www.earthkind.com/blog/5-facts-you-didnt-know-about-mice/"
+            },
+            {
+                "title": "Facts About Mice",
+                "url": "https://www.havahart.com/mouse-facts"
             }
         ]
     },
@@ -611,6 +647,42 @@
             }
         ]
     },
+    "Sheep": {
+        "facts": [
+            "Sheep have excellent memories and can recognize up to 50 individual faces of other sheep.",
+            "They are social animals that prefer to live in flocks and have a strong flocking instinct.",
+            "Sheep have been domesticated for thousands of years, primarily for their wool, meat, and milk.",
+            "They have a unique digestive system with a four-chambered stomach that helps them break down tough plant materials.",
+            "Sheep are ruminants, meaning they chew cud, a process that allows them to digest their food more thoroughly.",
+            "The wool of sheep can be used to make a variety of textiles and is highly valued in the textile industry."
+        ],
+        "links": [
+            {
+                "title": "10 fun facts about sheep",
+                "url": "https://spca.bc.ca/news/fun-facts-about-sheep/"
+            },
+            {
+                "title": "10 Facts about Sheep",
+                "url": "https://www.four-paws.org/campaigns-topics/topics/farm-animals/10-facts-about-sheep"
+            },
+            {
+                "title": "Sheep | Characteristics, Breeds, & Facts",
+                "url": "https://www.britannica.com/animal/domesticated-sheep"
+            },
+            {
+                "title": "10 Jaw-Dropping Facts About Sheep",
+                "url": "https://www.durvet.com/10-head-turning-facts-about-sheep/"
+            },
+            {
+                "title": "12 Fun Facts on Sheep You Might Not Know",
+                "url": "https://www.devonduvets.com/news/post/twelve-things-you-might-not-know-about-sheep"
+            },
+            {
+                "title": "Ag Facts: Sheep and Wool",
+                "url": "https://oklahoma.agclassroom.org/resources_facts/agfacts_sheep/"
+            }
+        ]
+    },
     "Snail": {
         "facts": [
             "Snails are mollusks that have a soft, unsegmented body and usually a hard shell.",
@@ -683,114 +755,6 @@
             }
         ]
     },
-    "Turtle": {
-        "facts": [
-            "Turtles have a hard shell called a carapace that protects them from predators.",
-            "They are one of the oldest reptile groups, dating back over 200 million years.",
-            "Turtles can live both in water and on land, with species adapted to different environments.",
-            "Some turtles can hold their breath for several hours while underwater.",
-            "They have a slow metabolism, which allows them to survive on limited food resources.",
-            "The largest turtle species is the leatherback sea turtle, which can weigh over 2,000 pounds."
-        ],
-        "links": [
-            {
-                "title": "10 totally awesome facts about turtles!",
-                "url": "https://www.natgeokids.com/uk/discover/animals/sea-life/turtle-facts/"
-            },
-            {
-                "title": "10 Tremendous Turtle Facts - NOAA Fisheries",
-                "url": "https://www.fisheries.noaa.gov/feature-story/10-tremendous-turtle-facts"
-            },
-            {
-                "title": "Top 10 facts about marine turtles | WWF",
-                "url": "https://www.wwf.org.uk/learn/fascinating-facts/marine-turtles"
-            },
-            {
-                "title": "Turtle | Species, Classification, & Facts",
-                "url": "https://www.britannica.com/animal/turtle-reptile"
-            },
-            {
-                "title": "Turtle facts: 9 amazing things you should know",
-                "url": "https://www.greenpeace.org.uk/news/amazing-turtle-facts/"
-            },
-            {
-                "title": "Sea Turtle Facts",
-                "url": "https://www.seeturtles.org/sea-turtle-facts"
-            }
-        ]
-    },
-    "Sheep": {
-        "facts": [
-            "Sheep have excellent memories and can recognize up to 50 individual faces of other sheep.",
-            "They are social animals that prefer to live in flocks and have a strong flocking instinct.",
-            "Sheep have been domesticated for thousands of years, primarily for their wool, meat, and milk.",
-            "They have a unique digestive system with a four-chambered stomach that helps them break down tough plant materials.",
-            "Sheep are ruminants, meaning they chew cud, a process that allows them to digest their food more thoroughly.",
-            "The wool of sheep can be used to make a variety of textiles and is highly valued in the textile industry."
-        ],
-        "links": [
-            {
-                "title": "10 fun facts about sheep",
-                "url": "https://spca.bc.ca/news/fun-facts-about-sheep/"
-            },
-            {
-                "title": "10 Facts about Sheep",
-                "url": "https://www.four-paws.org/campaigns-topics/topics/farm-animals/10-facts-about-sheep"
-            },
-            {
-                "title": "Sheep | Characteristics, Breeds, & Facts",
-                "url": "https://www.britannica.com/animal/domesticated-sheep"
-            },
-            {
-                "title": "10 Jaw-Dropping Facts About Sheep",
-                "url": "https://www.durvet.com/10-head-turning-facts-about-sheep/"
-            },
-            {
-                "title": "12 Fun Facts on Sheep You Might Not Know",
-                "url": "https://www.devonduvets.com/news/post/twelve-things-you-might-not-know-about-sheep"
-            },
-            {
-                "title": "Ag Facts: Sheep and Wool",
-                "url": "https://oklahoma.agclassroom.org/resources_facts/agfacts_sheep/"
-            }
-        ]
-    },
-    "Mouse": {
-        "facts": [
-            "Mice are highly adaptable and can live in a variety of environments, including urban areas and rural fields.",
-            "They have an acute sense of smell, which helps them find food and navigate their surroundings.",
-            "Mice are nocturnal creatures, meaning they are most active during the night.",
-            "They have sharp incisors that grow continuously throughout their lives.",
-            "Mice communicate using high-frequency vocalizations that are often inaudible to humans.",
-            "In scientific research, mice are commonly used as model organisms due to their genetic similarities to humans."
-        ],
-        "links": [
-            {
-                "title": "Fascinating Mouse Facts You Did Not Know - Mice Facts",
-                "url": "https://www.pestworld.org/news-hub/pest-articles/fascinating-facts-you-never-knew-about-mice/"
-            },
-            {
-                "title": "15 Little Known Facts about Mice",
-                "url": "https://www.excelpestservices.com/15-little-known-facts-about-mice/"
-            },
-            {
-                "title": "Mouse | Description, Habitat, Diet, Classification, & Facts",
-                "url": "https://www.britannica.com/animal/mouse-rodent"
-            },
-            {
-                "title": "Mice Information for Kids: House Mouse Facts for Kids",
-                "url": "https://www.pestworldforkids.org/pest-guide/mice/"
-            },
-            {
-                "title": "10 Interesting Facts About Mice You May Not Know",
-                "url": "https://www.earthkind.com/blog/5-facts-you-didnt-know-about-mice/"
-            },
-            {
-                "title": "Facts About Mice",
-                "url": "https://www.havahart.com/mouse-facts"
-            }
-        ]
-    },
     "Zebra": {
         "facts": [
             "Zebras are herbivorous mammals known for their distinctive black-and-white striped coats, which are unique to each individual.",
@@ -826,5 +790,5 @@
                 "url": "https://www.livescience.com/27443-zebras.html"
             }
         ]
-    }    
+    }
 }

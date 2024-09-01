@@ -4,6 +4,15 @@
 
 -   Final project from HCMUS's 2024 Statistical Machine Learning course.
 
+<div align="center">
+    <img alt="Home's Ultralytics' YOLOv10-M" src="READMEsrc/homev10.png" width="49%" height="auto">
+    <img alt="Wiki" src="READMEsrc/wiki.png" width="49%" height="auto">
+</div>
+<div align="center">
+    <img alt="Home's Wildlife model" src="READMEsrc/homeWildlife.png" width="49%" height="auto">
+    <img alt="Training sample" src="modelTraining/Ultralytics_YOLOv8/Notebook_result/runs/detect/train/val_batch0_pred.jpg" width="49%" height="130px">
+</div>
+
 ## Getting Started
 
 ### Prerequisites

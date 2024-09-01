@@ -1,26 +1,26 @@
 names:
-  0: Bear
-  1: Camel
-  2: Cat
-  3: Cattle
-  4: Chicken
-  5: Crab
-  6: Crocodile
-  7: Dog
-  8: Duck
-  9: Elephant
-  10: Fox
-  11: Frog
-  12: Hippopotamus
-  13: Kangaroo
-  14: Lion
-  15: Mouse
-  16: Pig
-  17: Rabbit
-  18: Sheep
-  19: Snail
-  20: Snake
-  21: Zebra
+    0: Bear
+    1: Camel
+    2: Cat
+    3: Cattle
+    4: Chicken
+    5: Crab
+    6: Crocodile
+    7: Dog
+    8: Duck
+    9: Elephant
+    10: Fox
+    11: Frog
+    12: Hippopotamus
+    13: Kangaroo
+    14: Lion
+    15: Mouse
+    16: Pig
+    17: Rabbit
+    18: Sheep
+    19: Snail
+    20: Snake
+    21: Zebra
 path: /kaggle/input/yolov8-for-train-val/YOLOv8_for_Train_Val
 train: train/images
 val: validation/images

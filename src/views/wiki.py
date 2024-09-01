@@ -24,7 +24,9 @@ def wiki():
     if "out2_names" not in session:
         info = None
     else:
-        info = get_animal_info(session["out2_names"])
+        names = session.get("out2_names", None)
+        sort_names(names, 1, session.get("out2_confs", None))
+        info = get_animal_info(names)
 
     return render_template(
         "wiki.html",
@@ -78,5 +80,4 @@ def refresh_info():
     order = request.args.get("order", default=1, type=int)
     sort_names(names, order, confs)
 
-    print("hello")
     return jsonify({"info": get_animal_info(names)}), 200

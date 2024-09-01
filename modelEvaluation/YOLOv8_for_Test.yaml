@@ -21,6 +21,6 @@ names:
     19: Snail
     20: Snake
     21: Zebra
-path: /kaggle/input/yolov8-for-train-val/YOLOv8_for_Train_Val
-train: train/images
-val: validation/images
+path: /kaggle/input/yolov8-test-dataset/YOLOv8_Test_Dataset
+train: test/images
+val: test/images
